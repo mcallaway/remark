@@ -1,4 +1,5 @@
 node_modules
+*.pdf
 out
 vendor
 *.swp
