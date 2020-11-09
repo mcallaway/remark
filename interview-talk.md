@@ -11,24 +11,46 @@ class: center, middle, inverse
 
 .left-column[
 # Agenda
+
+<img src="./images/sunrise.png" width="180">
 ]
 
 .right-column[
-* ### History (5min)
-* ### Backstory (10m)
-* ### Technical Scenario, Tools and Methods (20min)
-* ### Lessons Learned (5min)
-* ### What could have been done with AWS (5min)
-* ### Discussion
+* #### Personal History (5min)
+* #### Professional Backstory (10m)
+* #### Technical Scenario, Tools and Methods (20min)
+* #### Lessons Learned (5min)
+* #### What could have been done with AWS (5min)
+* #### Discussion
 ]
+
+???
+
+I have a lot to cover
+
+... attempt to set proper context
+
+... prior to technical deep dive
+
 --
 .right-column[
 ### Goals:
-* Give a sense of who I am
-* What I'm like: employee, coworker, friend
-* What I've done: technical, non-technical
-* How I work
+* Show a sense of who I am
+* Show what I'm like as an employee, as a coworker
+* Show what I've done both technical and non-technical
+* Show how I work
+* Show a technical example
 ]
+
+???
+
+An audience that must fill several roles
+
+... like a hiring manager
+
+... like a coworker
+
+... like a customer
 
 ---
 
@@ -38,7 +60,6 @@ About me
 ]
 
 .right-column[
-
 <img style="padding: 0 35px; float: right;" src="./images/mizzou.jpg" width="225">
 
 * 1997: BS. Math, Physics
@@ -62,7 +83,25 @@ About me
 * Motorcyclist
 
 "Movement through nature"
+
+"Passionate in my interests"
 ]
+
+???
+
+Grew up in KC
+
+Columbia MO, Madison WI
+
+Leaving school for tech
+
+Kids taking over hobbies
+
+Skiing, hiking, boats.
+Ultimate frisbee, guitar.
+Music. Heavy metal.
+
+Movement through nature.
 
 ---
 
@@ -87,9 +126,9 @@ In terms of a maxim or motto...
 ]
 --
 .right-column[
-* Curiosity to seek the truth
-* Tenacity to figure it out
-* Empathy to care about the affect on others
+* Curiosity: Want to know
+* Tenacity: Figure it out
+* Empathy: Care about affects on others
 * Seeking balance (always elusive)
 ]
 --
@@ -109,8 +148,9 @@ In terms of a maxim or motto...
 * Characteristics that show up in everything I do.
 * Curiosity about all things
 * The truth matters, there *is* a reality aside from feelings
-* Wanting a seat at the table
 * What gets me up in the morning
+* Being "smart enough" compared to...
+* ... 3 standard deviations and into the long tail
 
 ---
 
@@ -122,7 +162,7 @@ Backstory
 
 .right-column[
 
-## Begin work at MGI in 2010
+### Begin work at MGI in 2010
 
 * Traditional HPC with static compute images
 * Large Oracle OLAP/OLTP databases (billions of rows)
@@ -133,6 +173,14 @@ Backstory
 
 <img style="padding: 0 35px; float: right;" src="./images/cost-per-genome.png" width="400">
 
+???
+
+* SecurePipe/Trustwave was lots of data and data mining
+* MGI was similarly lots of data and data mining
+* The tools/tech were all very similar
+* Interviewing, RDBMs tables and relations
+* Someone saying, "He's one of us"
+
 --
 
 .right-column[
@@ -140,12 +188,12 @@ Backstory
 * **Manual changes, no change control, no project management, ad-hoc/reactionary**
 ]
 
----
+???
 
-<!--
-background-image: url(./images/agile.png)
-background-position: right 200px bottom 10px
--->
+* Systems team quite far behind development teams
+* Devs were close to scientists though
+
+---
 
 .left-column[
 # Scenario
@@ -155,7 +203,7 @@ Backstory
 
 .right-column[
 
-## Transforming "Systems" to "Systems Engineering"
+### Transforming "Systems" to "Systems Engineering"
 
 * Introduce VMWare: **change velocity**
 * Introduce Agile and Kanban: **project visibility**
@@ -168,7 +216,9 @@ Backstory
 
 ???
 
-* This isn't the way we do things
+* Not being dogmatic
+* Owning your code is a requirement for Agile
+* Dev *and* support, lots of investigation
 
 ---
 
@@ -176,11 +226,16 @@ Backstory
 # Scenario
 
 Backstory
+
+<img src="./images/git.png" width="100">
+<br/>
+<br/>
+<img src="./images/puppet.png" width="100">
 ]
 
 .right-column[
 
-## Transforming to "Systems Engineering"
+### Transforming to "Systems Engineering"
 
 Close the devide between "Systems" and "Development" and "Users".
 
@@ -193,10 +248,6 @@ Close the devide between "Systems" and "Development" and "Users".
 * Introduce "rollback"
 * Introduce "blameless post-mortems"
 
-<img src="./images/git.png" width="100">
-<br/>
-<br/>
-<img src="./images/puppet.png" width="100">
 ]
 
 ---
@@ -212,7 +263,7 @@ Backstory
 
 .right-column[
 
-## Transforming to "Systems Engineering"
+### Transforming to "Systems Engineering"
 
 * The Phoenix Project
 * Googe's SRE Book
@@ -247,7 +298,7 @@ Backstory
 
 .right-column[
 
-## Transforming to "Systems Engineering"
+### Transforming to "Systems Engineering"
 
 * Introduce Docker
 * Solve the "static OS image" problem
@@ -308,7 +359,7 @@ Backstory
 ]
 
 .right-column[
-#### What's Matt's role?
+### What's Matt's role?
 Issue creation, *defining* the work
 <img src="./images/issue-creation.png" width="300">
 ]
@@ -319,7 +370,7 @@ Backstory
 ]
 
 .right-column[
-#### What's Matt's role?
+### What's Matt's role?
 Issue assignment, *doing* the work
 <img src="./images/issue-assignee.png" width="280">
 ]
@@ -330,7 +381,7 @@ Backstory
 ]
 
 .right-column[
-#### What's Matt's role?
+### What's Matt's role?
 Git commits, *doing* the work
 <img src="./images/git-authors.png" width="500">
 ]
@@ -341,10 +392,26 @@ Backstory
 ]
 
 .right-column[
-#### What's Matt's role?
+### What's Matt's role?
 Git commits, *doing* the work
 <img src="./images/pr-leaderboard.png" width="300">
 ]
+---
+.left-column[
+# Scenario
+Backstory
+]
+
+.right-column[
+### What's Matt's role?
+Project management, sprints, *doing* the work
+<img src="./images/sprint26.png" width="500">
+
+* Inspired by Agile
+* Inclusive of Kanban for Support
+* "on-call" rotation to protect Development
+]
+
 ---
 .left-column[
 # Scenario
@@ -458,7 +525,8 @@ My Team/Role
 
 --
 .right-column[
-### I am not at the top of the org, but my role is "The Communicator".
+* #### I am not at the top of the org
+* #### ...but my role is "The Communicator"
 ]
 
 ---
@@ -497,7 +565,7 @@ Challenges
 
 .right-column[
 
-# Challenges/Risks
+### Challenges/Risks
 
 * Integrate Identity
 * Integrate Networks
@@ -510,20 +578,558 @@ Challenges
 * Incorporate Docker
 
 #### Much of the tech is familiar territory, but it's a lot of changes all at once.
+
+<img src="./images/dilbert.png" width="400">
 ]
 
 ---
+.left-column[
+# Technical Details
+## Network
+]
+.right-column[
+### Network Topology
+Datacenter Networks
+<img src="./images/network.png" width="500">
+]
+---
+.left-column[
+# Technical Details
+## Network
+]
+.right-column[
+### Network Topology
+Campus Networks
+<img src="./images/wuit-networks.png" width="500">
+]
+---
+.left-column[
+# Technical Details
+## Hardware
+]
+.right-column[
+### Rack Hardware
+<img src="./images/datacenter.png" width="500">
 
+* Dell C6420: Dual socket, 16 DIMM slots
+* Dual Intel Gold 6132 16 core 2.8 Ghz processors
+* 384GB of 2933Mhz memory
+* PCI-e 2 x 240GB SATA M.2 SSD drives in RAID 1
+]
+---
 .left-column[
 # Technical Details
 ]
 .right-column[
+### Common Infrastructure Pre-requisites
 
-* FIXME: network map
-* FIXME: data center hardware
-* FIXME: cluster roles: common
-* FIXME: cluster roles: compute
-* FIXME: cluster roles: storage
+Things that exist before we begin:
+
+* Physical datacenter
+* Physical and wireless network connectivity
+* Redundant uplinks through ISPs
+* Physical workstation or laptop
+* An active University Identity (WUSTL Key)
+]
+
+--
+.right-column[
+### The Challenge
+
+* #### Move data into storage
+* #### Compute on that data
+* #### Share that data
+]
+
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Storage Design
+
+IBM Spectrum Scale GPFS parallel filesystem
+
+3 clusters: storage1, cache1, scratch1
+
+Each has the following "roles"
+
+* Hitachi G800 Storage Arrays
+* Network Storage Device  (NSD) (3x) - Disks
+* Cluster Export Services (CES) (3x) - SMB
+* Data Transfer           (DTN) (2x) - Globus
+* Spectrum Protect/Tivoli (HSM/TSM)  - Tape
+* Filesystem Manager      (FSM) (1x) - Manager
+* Policy Manager          (ILM) (1x) - Policy
+* Management GUI          (GUI) (1x) - Dashboard
+
+]
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Storage Design
+The "storage1" cluster is the main long term storage environment:
+<img src="./images/storage1.png" width="580">
+]
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Compute/Storage Relationship
+Compute includes a "cache" and "scratch" cluster, where cache
+is an IBM GPFS AFM relationship to the "storage1" cluster:
+<img src="./images/all-storage.png" width="550">
+]
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Storage Design
+
+Ansible Inventory Groups
+
+```shell
+@storage_gpfs_storage1:
+  |--@storage_gpfs_storage1_ces:
+  |  |--rdcw-5-12-ces1.ris.wustl.edu
+  |  |--rdcw-5-12-ces2.ris.wustl.edu
+  |  |--rdcw-5-12-ces3.ris.wustl.edu
+  |--@storage_gpfs_storage1_dtn:
+  |  |--rdcw-5-12-dtn1.ris.wustl.edu
+  |  |--rdcw-5-12-dtn2.ris.wustl.edu
+  |--@storage_gpfs_storage1_fsmgr:
+  |  |--storage1-fsmgr1.ris.wustl.edu
+  |--@storage_gpfs_storage1_gui:
+  |  |--storage1-gui1.ris.wustl.edu
+  |--@storage_gpfs_storage1_hsm:
+  |  |--rdcw-5-12-hsm1.ris.wustl.edu
+  |  |--rdcw-5-12-hsm2.ris.wustl.edu
+  |--@storage_gpfs_storage1_ilm:
+  |  |--storage1-ilm1.ris.wustl.edu
+  |--@storage_gpfs_storage1_nsd:
+  |  |--rdcw-5-12-nsd1.ris.wustl.edu
+  |  |--rdcw-5-12-nsd2.ris.wustl.edu
+  |  |--rdcw-5-12-nsd3.ris.wustl.edu
+  |--@storage_gpfs_storage1_tsm:
+  |  |--rdcw-5-12-tsm1.ris.wustl.edu
+  |  |--rdcw-5-12-tsm2.ris.wustl.edu
+```
+]
+
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Storage Design
+
+Ansible Roles and Playbooks
+
+```bash
+- role: accounts-domain-member
+- role: ahuffman.resolv
+- role: ris.collectd
+- role: ris.common-packages
+- role: ris.logrotate
+- role: ris.ntp
+- role: ris.prometheus-exporters
+- role: ris.register-rhn
+- role: ris.rsyslog
+- import_playbook: cluster_facts.yml
+- import_playbook: fileset_quota.yml
+- import_playbook: gpfs_callbacks.yml
+- import_playbook: gpfs_ces_enable.yml
+- import_playbook: gpfs_ces_server.yml
+- import_playbook: gpfs_filesets.yml
+- import_playbook: gpfs_gui_enable.yml
+- import_playbook: gpfs_mounts.yml
+- import_playbook: gpfs_servers_setup.yml
+- import_playbook: gpfs_setup_afm.yml
+- import_playbook: gpfs_ssh_prereqs.yml
+- import_playbook: interface_options.yml
+```
+
+```bash
+> git ls-files -z services/storage/ | xargs -0 wc -l
+   44739 total
+```
+]
+
+---
+.left-column[
+# Technical Details
+]
+.right-column[
+### Compute Design
+Compute services allow Users access to a job scheduler.
+Execution nodes connect to scratch and cache storage.
+<img src="./images/compute-uml.png" width="450">
+]
+---
+.left-column[
+# Technical Details
+## Compute
+]
+.right-column[
+Ansible Inventory Groups
+```terminal
+@compute_lsf_compute1:
+  |--@compute_lsf_compute1_client:
+  |  |--compute1-client-1.ris.wustl.edu
+  |  |--compute1-client-2.ris.wustl.edu
+  |  |--compute1-client-3.ris.wustl.edu
+  |  |--compute1-client-4.ris.wustl.edu
+  |--@compute_lsf_compute1_db:
+  |  |--compute1-db-1.ris.wustl.edu
+  |--@compute_lsf_compute1_exec:
+  |  |--compute1-exec-1.ris.wustl.edu
+  ...
+  |  |--compute1-exec-280.ris.wustl.edu
+  |--@compute_lsf_compute1_gui:
+  |  |--compute1-gui-1.ris.wustl.edu
+  |--@compute_lsf_compute1_master:
+  |  |--compute1-master-1.ris.wustl.edu
+  |  |--compute1-master-2.ris.wustl.edu
+  |  |--compute1-master-3.ris.wustl.edu
+```
+]
+---
+
+.left-column[
+# Technical Details
+## Compute
+]
+.right-column[
+Ansible Roles and Playbooks
+```bash
+- import_playbook: pre_lsf_installation.yml
+- import_playbook: ibm_lsf_installer.yml
+- import_playbook: post_lsf_installation.yml
+- import_playbook: wustlkey_groups.yml
+- import_playbook: remove_cache_entries.yml
+- import_playbook: scratch_dirs.yml
+- import_playbook: allocations.yml
+- import_playbook: remove_cache_entries.yml
+- import_playbook: compute1_master_refresh_groups.yml
+```
+```bash
+> git ls-files -z services/compute/ | xargs -0 wc -l
+  1484388 total
+```
+
+Many more lines of Ansible due to IBM's playbooks
+representing the LSF installer.
+]
+
+---
+.left-column[
+# Technical Details
+## Provision "condos"
+]
+.right-column[
+### Ansible builds a storage and compute "Allocation"
+
+We present a notion of "condominiums" for storage and compute.
+
+```ruby
+> cat services/storage/allocations/storage1/wucci.yml
+---
+allocation:
+    wustlkey: fitzp
+    custom_name: wucci
+    afm_cache_enable: true
+    department_number: 3979
+    issue_key: ITDEV-13526
+    add_archive: true
+    quota: 1024T
+    dir_projects:
+
+        Cryo-EM:
+            rw:
+            - lab-wucci-cryo
+            - lab-wucci-fib
+```
+]
+
+--
+.right-column[
+```ruby
+> ./bin/ansible-playbook services/storage/allocations.yml
+```
+]
+
+---
+.left-column[
+# Technical Details
+## Provision Storage "condo"
+]
+.right-column[
+### Ansible builds a storage and compute "Allocation"
+
+* IBM Spectrum Scale GPFS Storage Fileset
+* GPFS/NFSv4 Access Control Lists (ACLs)
+* Compute via a caching layer (IBM AFM)
+
+```terminal
+# pwd
+/storage1/fs1/wucci
+# mmgetacl Active | grep -P '^[^#\s]'
+special:owner@:rwxc:allow:DirInherit
+special:owner@:rw-c:allow:FileInherit
+group:ris-it-admin:rwx-:allow:DirInherit
+group:ris-it-admin:rw--:allow:FileInherit
+group:storage-wucci:rwx-:allow:DirInherit
+group:storage-wucci:rw--:allow:FileInherit
+group:storage-wucci-cryo-em-ro:r-x-:allow
+group:storage-wucci-cryo-em-rw:r-x-:allow
+...
+```
+
+```terminal
+[mcallawa@compute1-client-1 ~]$ bqueues
+QUEUE_NAME      PRIO STATUS       NJOBS  PEND   RUN  SUSP
+general          10  Open:Active    668     0   668     0
+general-interac  10  Open:Active      5     0     5     0
+```
+]
+---
+.left-column[
+# Technical Details
+## SELinux Policy
+]
+.right-column[
+## SELinux
+
+Along with ACLs, SELinux is used to secure containers:
+
+```terminal
+> ls -1 *.te
+ris-byobu.te
+ris-client-storage.te
+ris-container-gpu.te
+ris-container-homedir.te
+ris-container-storage1.te
+ris-mkhomedir.te
+ris-permissive-containers.te
+```
+```terminal
+module ris-container-storage1 1.1;
+require {
+    type container_t;
+    type default_t;
+    type ssh_home_t;
+    ...
+    class dir { add_name create getattr ioctl lock open read remove_name rename reparent rmdir search setattr write };
+    ...
+    class lnk_file { append create execute getattr ioctl link lock read rename setattr unlink write };
+}
+allow container_t default_t:dir read;
+allow container_t ssh_home_t:dir read;
+allow container_t tmp_t:dir { add_name create getattr ioctl lock open read remove_name rename reparent rmdir search setattr write };
+...
+```
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## What does it look like?
+
+The SMB interfaces is as one would expect:
+
+<img src="./images/go-menu.png" height="250">
+<img src="./images/connect-menu.png" width="250">
+<img src="./images/mcallawa-volume.png" width="250">
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## What does it look like?
+
+The Globus interfaces offers easy file transfer into storage:
+
+<img src="./images/globus.png" width="500">
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## What does it look like?
+
+With data uploaded via SMB or Globus, a standard POSIX interface:
+```terminal
+[mcallawa@compute1-client-1 ~]$ whoami
+mcallawa
+[mcallawa@compute1-client-1 ~]$ hostname
+compute1-client-1.ris.wustl.edu
+[mcallawa@compute1-client-1 ~]$ ls -l /scratch1/fs1/mcallawa
+total 34
+drwx--S---. 2 mcallawa compute-mcallawa 1024 Oct 23 15:41 data
+[mcallawa@compute1-client-1 ~]$ ls -l /storage1/fs1/mcallawa
+total 33
+drwx------. 11 root root          8192 Oct 24 18:54 Active
+drwx------.  2 root ris-it-admin  8192 Jul 23 16:19 Archive
+-rw-r--r--.  1 root root          2327 Sep 17 11:30 README.txt
+```
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+### Job Scheduler
+
+The job scheduler offers a host of features:
+
+<img src="./images/job-states.png" width="400">
+```terminal
+$ bqueues general-interactive
+QUEUE_NAME      PRIO STATUS      MAX NJOBS PEND RUN SUSP
+general-interac  10  Open:Active   -   154    0 154    0
+```
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+### User Documentation
+
+Documentation includes a user manual:
+
+<img src="./images/manual.png" width="400">
+
+* Total Lines of Code: 8477
+* Authors: 11 (average 46.1 commits per author)
+
+]
+
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## Running programs
+
+*"Can you show me how to run python?"*
+]
+--
+.right-column[
+```terminal
+> ssh compute1-client-1.ris.wustl.edu
+
+[mcallawa@compute1-client-1 ~]$
+```
+]
+
+--
+
+.right-column[
+```terminal
+[mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker(python)' bash
+Job <12595> is submitted to default queue <general-interactive>.
+<<Waiting for dispatch ...>>
+<<Starting on compute1-exec-177.ris.wustl.edu>>
+Using default tag: latest
+latest: Pulling from library/python
+16ea0e8c8879: Pull complete
+... pull layers ...
+Digest: sha256:cea522e86d1a42e0bf339e9b615a3d76f2258916ee16dc562ff9182ef15ece05
+Status: Downloaded newer image for python:latest
+docker.io/library/python:latest
+I have no name!@compute1-exec-177:~$ python --version
+Python 3.8.0
+```
+]
+
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## Running programs
+
+*"How about a Jupyter Notebook?"*
+
+```terminal
+LSF_DOCKER_VOLUMES="/storage1/fs1/mcallawa/Active:/storage1/fs1/mcallawa/Active" \
+LSF_DOCKER_PORTS="8200:8200" \
+PATH="/opt/conda/bin:$PATH \
+bsub -Is \
+    -G compute-ris \
+    -q general-interactive \
+    -a 'docker(jupyter/scipy-notebook)' \
+    -R 'select[port8200=1]' \
+    jupyter notebook --port 8200
+```
+]
+---
+.left-column[
+# Technical Details
+## Compute and Storage
+]
+.right-column[
+## Running programs
+
+*"How about a VNC Desktop?"*
+
+```terminal
+[mcallawa@compute1-client-1 ~]$ compute1-gui-desktop
+...
+Created password for your noVNC web login.
+Your password for noVNC is: 3gGVEkrWd6I=
+...
+You can access your compute1 desktop with th url
+https://compute1-exec-142.compute.ris.wustl.edu:8901/vnc.html?resize=remote
+```
+
+<img src="./images/novnc.png" width="400">
+]
+---
+.left-column[
+# Technical Details
+## Summary
+]
+.right-column[
+## What have we just seen?
+
+This has been an overview of RIS Storage and Compute
+
+```terminal
+[mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker(python)' bash
+Job <12595> is submitted to default queue <general-interactive>.
+...
+I have no name!@compute1-exec-177:~$ python --version
+Python 3.8.0
+```
+]
+
+--
+.right-column[
+* Wash U Faculty, Staff, Students (and Guests)
+* Integrated Wash U core networks
+* SMB and Globus data movement
+* Complex access controls tied to AD groups
+* Docker containers bringing *arbitrary software*
+* 5,000+ CPU cores, 500,000+ GPU cores, 100G network
+* 10+ PB storage, caching, scratch, backups, snapshots
+* **Complete, controlled, independent, reproducible science**
+* **Cloud ready**
 ]
 
 ---
@@ -533,7 +1139,7 @@ Challenges
 ]
 
 .right-column[
-## Compute Service Adoption
+### Compute Service Adoption
 
 <img src="./images/compute-adoption.png" width="400">
 <img src="./images/compute-usage.png" width="400">
@@ -546,7 +1152,7 @@ Challenges
 ]
 
 .right-column[
-## Storage Service Adoption
+### Storage Service Adoption
 
 <img src="./images/storage-adoption.png" width="400">
 <img src="./images/storage-usage.png" width="400">
@@ -559,7 +1165,7 @@ Challenges
 
 .right-column[
 
-## User Satisfaction
+### User Satisfaction
 
 Most users seem happy with the way things work.
 
@@ -575,7 +1181,7 @@ Most users seem happy with the way things work.
 
 .right-column[
 
-## Positive
+### Positive
 
 * "We're already using containers, this is great. We'll be able to run here and in the cloud."
 * "This isn't what we did at our previous university, but this is much better."
@@ -599,7 +1205,7 @@ Most users seem happy with the way things work.
 
 .right-column[
 
-## Negative
+### Negative
 
 * "This is too hard."
 * "This is not what we did at our previous university."
@@ -621,6 +1227,7 @@ Most users seem happy with the way things work.
 # Lessons
 
 What Have I Learned?
+
 ]
 .right-column[
 ### More than just this project
@@ -724,572 +1331,21 @@ What Have I Learned?
 
 ## Discussion
 
-<img src="./images/discussion.jpg" width="400">
+<img src="./images/cycle-mud.jpg" width="400">
+
+*"Even advanced technology sometimes gets stuck in the mud."*
+
+# Thank you!
 ]
 
 ---
-
-# END
-
----
-# The RIS Compute Service
-
-## What is it?
-
---
-
-* ... resources for computing tasks with many CPU and GPU cores, RAM, networks, and storage systems.
-
---
-
-* ... centered around "container" technologies (e.g. Docker), to allow complex software environments to be deployed independently from one another, isolating complicated software dependencies.
-
---
-
-* ... integrated with other services: identity, storage, data transfer, cloud
-
---
-
-"Does this mean Wash U has a cluster with a cool name?"
-
---
-
-*We name our pets. We don't name our livestock.*
-
----
-
-# It's not a "pet"
-
-http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
-
-**Pets**: Servers that are treated as indispensable or unique systems that can never be down.
-
-**Cattle**: Servers built using automated tools, designed for 'consumption', where any individual is replaceable.
-
----
-
-# It's not a "pet"
-
-http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/
-
-**Pets**: Servers that are treated as indispensable or unique systems that can never be down.
-
-.center[
-<img src="./images/kitty.png" width="400">
-]
-
-### Named clusters are born from static, curated operating system images, that must be born again when a new base OS is needed.
-
----
-
-# An example of a named cluster
-
-## "Sherlock" at Stanford University
 
 <!--
-.left-column[
-<img src="./images/sherlock.png" width="100">
-]
+background-image: url(./images/agile.png)
+background-position: right 200px bottom 10px
 -->
 
-https://www.sherlock.stanford.edu/docs/overview/specs/
-
-|                    | Sherlock 1.0  | Sherlock 2.0 |
-|:-------------------|:--------------|:-------------|
-| Login nodes        | 4             | 2            |
-| Data transfer node | 1             | -            |
-| Compute nodes      | 120           | 60           |
-| Bigmem nodes       | 2             | 2            |
-| GPU nodes          | 5             | 2            |
-| Owners nodes       | 716           | 160          |
-| **Operating System**   | **CentOS 6.x**    | **CentOS 7.x**   |
-
-
 ---
-
-# ... another example
-
-## "Midway1" at U of Chicago
-
-https://rcc.uchicago.edu/about-rcc/news-features/midway1-being-decommissioned
-
-*In 2011, the Research Computing Center (RCC) launched the high-performance compute cluster, Midway1, to enable research and scholarship. After 7 years, the hardware is no longer under warranty and is beyond its expected lifespan. The RCC has started the decommissioning of Midway1 and plans to **migrate all applications to Midway2**. A multi-phased approach is being used to decommission Midway1 as to **mitigate disruption**.*
-
-???
-
-Aside about how Jason and I would work on LSF8 and LSF9 cluster.
-
-Installing/changing perl modules for APIPE and LIMS teams, breaking things.
-
---
-
-You shouldn't care about the details of the cluster. It should just work. It's a service.
-
---
-
-### You think about services like Google Compute Platform, Amazon Web Services, Azure
-
---
-### ...and the **RIS Compute Service**
-
----
-
-# RIS Compute is a Service
-
-The "Service" is comprised of servers and infrastructure that should be replacable without disruption.
-
-### As it grows and changes over time, you shouldn't notice or care, it should just work.
-
---
-.center[
-<img src="./images/cow.jpg" width="400">
-]
-
-
----
-
-# RIS Computing Infrastructure (physical)
-
-.center[
-<img src="./images/datacenter.png" width="700">
-]
-
----
-
-# RIS Computing Infrastructure (physical)
-
-.left-column[
-</br>
-<img src="./images/datacenter.png" width="200">
-]
-
-.right-column[
-* 5,400 Intel Cascade Lake CPU Cores
-* 500,000+ NVidia Graphical (Tesla V100 GPU) cores
-* 100GB fiber networking
-* 8GB RAM per phsyical CPU core
-* 300 TB DDN SSD scratch storage (GPFS /scratch1)
-* GPU nodes have local NVMe with NVLink technology
-* WURN 40 Gbps network transfer rate
-]
---
-
-.right-column[
-
-### Base compute execution (exec) node
-
-* Dell C6420: dual socket, 16 DIMM slots, 1 x16 lane PCI-e 3.0 slot
-* Dual Intel Gold 6132 16 core 2.8 Ghz processors
-* Dual port 10gb SFP+ Ethernet Network Daughtercard
-* 384GB of 2933Mhz memory
-* PCI-e 2 x 240GB SATA M.2 SSD drives in RAID 1
-]
-
----
-
-# RIS Computing Infrastructure (physical)
-
-What this looks like from a shell terminal on an exec node.
-
-```terminal
-[root@compute1-exec-102 ~]# grep processor /proc/cpuinfo | wc -l
-32
-```
-
---
-
-```terminal
-[root@compute1-exec-102 ~]# free -m
-              total        used        free      shared  buff/cache   available
-Mem:         385191       36200      326679          66       22310      346963
-Swap:             0           0           0
-```
-
---
-
-```terminal
-[root@compute1-exec-102 ~]# ip route get 8.8.8.8
-8.8.8.8 via 10.25.19.253 dev ib0 src 10.25.19.130
-    cache
-```
-
---
-
-```terminal
-[root@compute1-exec-102 ~]# ethtool ib0 | grep Speed
-    Speed: 100000Mb/s   # <-- That's 100G!
-```
-<!--#' syntax highlighting tweak -->
-
----
-
-# RIS Computing Infrastructure (logical)
-
-## What does "integrated" mean with respect to compute?
-
---
-
-* Your WUSTL Key Identity
-* Your storage space (Research Storage: storage1 cluster)
-* Wash U core networks
-* Data transfer (Globus)
-* Cloud services (GCP, AWS, Azure ... "Federated IDM")
-* ... more?
-
----
-
-# RIS Computing Infrastructure (logical)
-
-.center[
-<img src="./images/uml-diagram.png" width="500">
-]
-
----
-
-# Running programs
-
-*"Can you just show me how to run python?"*
-
---
-
-```terminal
-> ssh compute1-client-1.ris.wustl.edu
-
-You are connecting to RIS Compute services.
-Membership in compute-* AD group is required.
-Users are responsible for ensuring that they act in accordance
-with policy applicable to Washington University St. Louis.
-
-... The news ...
-
-[mcallawa@compute1-client-1 ~]$
-```
-
---
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker1(python)' bash
-Job <12595> is submitted to default queue <general-interactive>.
-<<Waiting for dispatch ...>>
-<<Starting on compute1-exec-177.ris.wustl.edu>>
-Using default tag: latest
-latest: Pulling from library/python
-16ea0e8c8879: Pull complete
-... pull layers ...
-Digest: sha256:cea522e86d1a42e0bf339e9b615a3d76f2258916ee16dc562ff9182ef15ece05
-Status: Downloaded newer image for python:latest
-docker.io/library/python:latest
-I have no name!@compute1-exec-177:~$ python --version
-Python 3.8.0
-```
-
----
-
-# Running programs
-
-(an aside)
-
-*"Wait... what is that 'I have no name!'?"*
-
-```terminal
-I have no name!@compute1-exec-177:~$ whoami
-whoami: cannot find name for user ID 1416339
-```
-
---
-
-This is a "warning" not an error... but
-
---
-
-<a href="https://jira.ris.wustl.edu/browse/ITDEV-13061"> https://jira.ris.wustl.edu/browse/ITDEV-13061</a>
-
-"Provide compute1 jobs a minimal /etc/passwd with $UID included so libnss-sss is not required"
-
-Will fix it soon. (It's early days folks.)
-
----
-
-# Running programs
-
-So now we have a job running.
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ bjobs -r
-JOBID   USER    STAT  QUEUE      FROM_HOST   EXEC_HOST   JOB_NAME   SUBMIT_TIME
-12607   mcallaw RUN   general-in compute1-cl compute1-ex bash       Dec  9 07:45
-```
-.center[
-<img src="./images/job-states.png" width="450">
-]
-
----
-
-# An aside about "queues"
-
-### How to implement "sharing" and "preemption"
-
-* Originally thought of "condo queues"
-* 1 for batch work, 1 for interactive work
-
---
-* Imagine 100 condos
-
---
-* Avoid "Queue Proliferation"
-
---
-* This is a work in progress
-* Working on "Guaranteed Resource Pools" instead
-
---
-
-### Allow condo owners immediate priority on their condo, but still encourage sharing.
-
----
-
-# Running programs
-
-## What have I just shown you?
-
---
-*(aside from the 'I have no name' wart)*
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker1(python)' bash
-Job <12595> is submitted to default queue <general-interactive>.
-...
-I have no name!@compute1-exec-177:~$ python --version
-Python 3.8.0
-```
-
---
-
-You asked to run an arbitrary program, 'python'
-
-* on a cluster of computing resources with
-* over 5,000 CPU and 500,000 GPU cores
-* with 100G networks
-* 190,000+ storage IOPs available to network storage
-* ...with over 4PB of spinning disk space, and growing
-* ...multiple performance tiers, backups, snapshots, archives
-* ...with a network link to cloud providers with federated identity management
-
----
-
-# Running programs
-
-## What have I just shown you?
-
-**You can run your software.**
-
---
-
-* **Any software.**
-
---
-* New programs, old programs, your programs, other people's programs.
-* Things that need to stay static forever.
-* Things that need to change every day.
-* Things you need to share with others, or keep private.
-* Whatever your group needs.
-
---
-* And it'll run in the cloud too.
-
---
-
-### And the OS that drives the cluster remains independent.  We can all evolve at our own rate.
-
---
-
-**How much would you pay!?**
-
---
-
-**But wait! There's more!**
-
----
-
-# Connecting to Storage
-
-How do we connect to storage?
-
---
-
-First off be aware that default POSIX permissions prevent "browsing":
-
---
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ ls -l /scratch1/fs1/
-ls: cannot open directory /scratch1/fs1/: Permission denied
-```
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ ls -l /storage1/fs1/
-ls: cannot open directory /storage1/fs1/: Permission denied
-```
---
-
-You have to know what you're looking for:
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ ls -l /scratch1/fs1/mcallawa
-total 1730
-drwxr-x---. 4 mcallawa domain users    4096 Nov 12 08:52 relion_benchmark
-d---------. 8 mcallawa domain users    4096 Dec  5 09:31 test_washu_dir
-----------. 1 mcallawa domain users 1763829 Dec  5 09:30 test_washu_dir.tar.gz
-```
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ ls -l /storage1/fs1/mcallawa
-total 32
-d---------. 6 root ris-it-admin 8192 Nov 25 09:34 Active
-d---------. 2 root ris-it-admin 8192 Dec 17  2018 Archive
--rw-r--r--. 1 root root         2325 May  7  2018 README.txt
-```
-
----
-
-# Connecting to Storage
-
-So we see here "storage1 mounted on the compute client."
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ ls -l /storage1/fs1/mcallawa
-total 32
-d---------. 6 root ris-it-admin 8192 Nov 25 09:34 Active
-d---------. 2 root ris-it-admin 8192 Dec 17  2018 Archive
--rw-r--r--. 1 root root         2325 May  7  2018 README.txt
-```
-
---
-**Export LSF_DOCKER_VOLUMES to pass volumes to an execution node:**
-
---
-```terminal
-[mcallawa@compute1-client-1 ~]$ export \
-  LSF_DOCKER_VOLUMES="/storage1/fs1/mcallawa:/data \
-    /scratch1/fs1/mcallawa:/scratch"
-```
-
---
-Environment variables to be documented in the User Manual:
-
-* LSF_DOCKER_IPC
-* LSF_DOCKER_NETWORK
-* LSF_DOCKER_VOLUMES
-* LSF_DOCKER_WORKDIR
-* LSF_DOCKER_SHM_SIZE
-* LSF_DOCKER_ENTRYPOINT
-* LSF_DOCKER_PRESERVE_ENVIRONMENT
-
----
-
-# Connecting to Storage
-
-Storage volumes on the execution node
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker(mcallaway/ubuntu)' bash
-Job <12599> is submitted to default queue <general-interactive>.
-<<Waiting for dispatch ...>>
-<<Starting on compute1-exec-139.ris.wustl.edu>>
-Using default tag: latest
-latest: Pulling from mcallaway/ubuntu
-Digest: sha256:50b7c3d8a284b8e03d8adc8244ea906b45579eab5207a35c18db12d6bdb8ffc5
-Status: Image is up to date for mcallaway/ubuntu:latest
-docker.io/mcallaway/ubuntu:latest
-mcallawa@compute1-exec-139:~$ ls /scratch /data
-/data:
-Active	Archive  README.txt
-
-/scratch:
-relion_benchmark  test_washu_dir  test_washu_dir.tar.gz
-```
-
----
-
-# Connecting to Storage
-
-The *same* storage volume on your Macbook. Mount with the "SMB" protocol.
-
-.left-column[
-<img src="./images/go-menu.png" height="450">
-]
---
-.right-column[
-.right[
-<img src="./images/connect-menu.png" width="400">
-]
-]
-
----
-
-## Connect to storage volumes
-
-<img src="./images/mcallawa-volume.png" width="500">
-
---
-
-```terminal
-(mcallawa-macbook)-(jobs:0)-(~)
-(ins)-> ls /Volumes/mcallawa/
-Active     Archive    README.txt
-```
-
----
-
-## Work with data: Mac, client, exec node
-
-```terminal
-(mcallawa-macbook)-(jobs:0)-(~)
-(ins)-> mkdir /Volumes/mcallawa/Active/newdata
-
-(mcallawa-macbook)-(jobs:0)-(~)
-(ins)-> date | tee /Volumes/mcallawa/Active/newdata/newfile
-Sat Dec  7 09:43:01 CST 2019
-```
-
---
-
-See it from `compute1-client-N`:
-
-```terminal
-[mcallawa@compute1-client-1 ~]$ whoami
-mcallawa
-[mcallawa@compute1-client-1 ~]$ pwd
-/home/mcallawa
-[mcallawa@compute1-client-1 ~]$ cat /storage1/fs1/mcallawa/Active/newdata/newfile
-Sat Dec  7 09:43:01 CST 2019
-```
-
---
-
-See it from `compute1-exec-N`:
-
-```terminal
-mcallawa@compute1-exec-136:~$ hostname
-compute1-exec-136.ris.wustl.edu
-mcallawa@compute1-exec-136:~$ ls -l /data/Active/newdata/
-total 1
-----------. 1 mcallawa domain users 29 Dec  7 15:43 newfile
-mcallawa@compute1-exec-136:~$ cat /data/Active/newdata/newfile
-Sat Dec  7 09:43:01 CST 2019
-mcallawa@compute1-exec-136:~$ env | grep JOBID
-LSB_JOBID=12600
-```
-
----
-
-# Softward and Storage
-
-We've seen you can run any program and you can work with your data.
-
-### **It seems so easy!**
-
---
 
 *Is it easy?*
 
@@ -1329,105 +1385,6 @@ vs.
 
 ---
 
-# "What about *my* software?"
-
-Learn to use Docker:
-
-* Use `docker build` on your Mac... for now.
-* This will be possible from the cluster soon.
-
---
-
-Things users want that are coming soon:
-
-* Development environment (instead of your Mac)
-* Private container registry (not Docker Hub)
-
---
-
-Know your software:
-
-* Some software stacks already exist in your community.
-* Others are easy to build.
-* Still others are a nightmare. We'll do our best to help.
-
----
-
-# What are Wash U PIs/Users saying?
-
---
-### Negative
-
-* "This is too hard."
-
---
-* "This is not what we had to do at my previous university."
-
---
-* "We're going to need a lot of help with this."
-
---
-* "Now we'll have to go back and re-learn how we built all this stuff!"
-
---
-* "I have no idea what my 'software dependencies' are."
-
---
-* "But we want to own and control all of our own hardware."
-
---
-* "We don't want to share."
-
---
-* "You're too slow."
-
---
-* "You won't build what I tell you."
-
---
-* "It's too complicated."
-
---
-* "It's too expensive."
-
----
-# What are Wash U PIs/Users saying?
-
-### Positive
-
---
-* "We're already using containers, this is great. We'll be able to run here and in the cloud."
-
---
-* "This isn't what we did at our previous university, but this is much better."
-
---
-* "We used to build all our own stuff, but then the computers overheated in the closet."
-
---
-* "Granting agencies don't want us to purchase hardware anymore."
-
---
-* "I have no idea how to run storage and networking."
-
---
-* "We used to build all our own stuff, but then the guy who ran it quit."
-
---
-* "Our previous university had centralized computing resources. Doesn't everyone expect this to exist?"
-
---
-* "This makes a lot of sense."
-
---
-* "This is exciting!"
-
---
-
-### "I don't want to think about building infrastructure. I want to think about science. Thanks for building this!"
-
----
-
 # Again, what have I shown you?
 
 Computing is a big subject, and it's hard.
@@ -1438,6 +1395,7 @@ Computing is a big subject, and it's hard.
 
 --
 
+HERE CUT
 You figure that part out, and we'll do the rest...
 
 <img style="padding: 0 35px; float: right;" src="./images/datacenter.png" width="375">
@@ -1465,141 +1423,6 @@ You figure that part out, and we'll do the rest...
 
 # Questions
 
-### Regarding Identity
-
-* Wustl Key ID, Active Directory
-* Be aware of `unixHomeDirectory`
-
-```terminal
-> accounts.ldapsearch '(&(objectCategory=User)(sAMAccountName=joe.user))' unixHomeDirectory
-dn: CN=User\, Joe 1353640019,OU=SOMEDEPT,OU=wuit,OU=Current,OU=People,DC=accounts,DC=ad,DC=wustl,DC=edu
-unixHomeDirectory: /home/IDC-ID-74949
-```
-
---
-
-* Be aware of `memberOf`
-
-Group memberships and ACLs are not currently not "Self Service" but they will be (IDMv2).
-
-```terminal
-> accounts.ldapsearch '(&(objectCategory=User)(sAMAccountName=liam.bindle))' memberOf | egrep "(storage|compute)"
-memberOf: CN=compute-somelab,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
-memberOf: CN=storage-somelab-shared-rw,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
-memberOf: CN=storage-somelab-shared-ro,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
-```
-
-**Access to storage volumes are mediated by ACLs based on `storage-*` groups.**
-
----
-
-# Questions
-
-### Regarding your HOME directory
-
-* HOME has a 10G quota, it's meant to be small
-* It gets snapshots
-* It's going to get backups soon
-* It's on the "cache1" tier
-* storage1 is better for long term storage
-* scratch1 is better for high performance tmp
-
---
-
-An aside about Snapshots, Backups, and Archives.
-
-* Snapshots are in `$FILESET/.snapshots` (should be `$FILESET/Snapshots`)
-* Daily "point in time" pointers.
-* "Backups" means a "copy of the original" goes to another storage tier.
-* "Archves" means "the only copy" goes to another storage tier.
-
-"Cold storage" tier under active development (copy to GCP).
-
----
-
-# Questions
-
-### Regarding /scratch1
-
-* 300TB in total *for everyone* (growable)
-* A fast tmp space in `/scratch1/fs1/$GROUPNAME`
-* It's faster than the local HDD
-* It's also not "browseable"
-* Policies are being developed to try to "share" it
-* Things will get auto-deleted at some point (weeks?)
-
-### We'll be open to negotiating large scale or longer term use based on your project needs.
-
----
-
-# Questions
-
-### Regarding /storage1
-
-* Data is copied on read from storage1 to cache1 via "AFM"
-* Caching is hard (let's see how it works)
-* Two inode spaces (two places to "run out of space")
-
----
-
-# Questions
-
-### Regarding SELinux, Docker, and Security
-
-* We now **have** a "security model"
-* Prior things were more "gentlemanly" (please don't delete my stuff)
-* You may see "Permission Denied" where you shouldn't
-* Please be patient as we learn the right SELinux policy
-
-* You cannot change EUID even in Docker
-
----
-
-# Questions
-
-### Known limitations
-
-* Your containers must have `/bin/sh` as an ENTRYPOINT.
-* We may be able to "fix" this in the future.
-* No `sudo`, you run as yourself (cannot change EUID).
-
----
-
-# Questions
-
-### Regarding the cost model and chargeback
-
-(Do not circulate, this is being negotiated with an oversight committee)
-
-Proposed examples:
-
-* General $100/FTE up to $10,000 max per PI or dept
-** 1 running interactive job, 10 running batch jobs, 100 pending jobs
-* Subscription tier 1: $3,000 /yr, 2 interactive, 50 batch, 1,000 pending (similar to 25 CPU cores per year)
-* Subscription tier 2: $6,000 /yr, 2 interactive, 100 batch, 5,000 pending (similar to 50 CPU cores per year)
-* Subscription tier 3: $12,000 /yr, 2 interactive, 200 batch, 10,000 pending (similar to 100 CPU cores per year)
-* Consumption: $0.02 per "compute unit" (1 CPU+4G RAM), 10 interactive, 500 batch, 10,000 pending
-
-This is all "in flux" as we learn the possibilities of the LSF scheduling engine.
-
-The takeaway is that there will be limits, and there will be charges to shape incentives and sustain the infrastructure (not make profit).
-
----
-
-# Questions
-
-### Regarding "Condominiums"
-
-* Minimum "buy in" of 1 chassis with 4 servers (~$30,000)
-* Higher running and pending job limits
-* Priority access to condo hardware with pre-emption
-* Spill over into available general resources
-
-Other users can use your gear when it's not in use, but your jobs will "pre-empt" theirs, which will be requeued.
-
----
-
-# Questions
 
 ### Notable Integrations
 
@@ -1611,23 +1434,10 @@ Other users can use your gear when it's not in use, but your jobs will "pre-empt
 * Google, cloud vendors
 
 ---
-
-# Questions
-
 ### Coming soon
 
-* Network ports for LSF jobs
 * Integrated Kubernetes and LSF
-* Jupyter Notebooks
-* Jupyter Hub
-* Cron-like repeated jobs
-* `docker build` as a service
-* Workstation/Development-environment based on OpenOnDemand
 * Hosted/Private Docker container registry
 * Automated security scans of "blessed" container images
 * A growing repository of already-built tools
 * Documentation/Examples of complex workflows using Toil, WDL/Cromwell, etc.
-
----
-
-# Thank you!
