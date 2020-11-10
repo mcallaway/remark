@@ -81,7 +81,7 @@ About me
 **Outside of work**
 
 * Father of 3
-* Linux enthusiast
+* Music fan
 * CrossFitter
 * Bicyclist
 * Motorcyclist
@@ -93,19 +93,29 @@ About me
 
 ???
 
-Grew up in KC
+Grew up in KC -> Columbia MO -> Madison WI -> STL
 
-Columbia MO, Madison WI
+Leaving school for tech startup in FLOSS, wasn't excited about being a prof. Astrophysics was a difficult landscape.
 
-Leaving school for tech
+Kids taking over hobbies, 2003, STL.
 
-Kids taking over hobbies
+Hobbies: Movement through nature.
 
-Skiing, hiking, boats.
-Ultimate frisbee, guitar.
-Music. Heavy metal.
+Skiing, hiking, running. Ultimate frisbee, guitar.  Music. Heavy metal.
 
-Movement through nature.
+Nothing halfway:
+
+* ultimate frisbee city runners up
+* published in ApJ
+* open mic nights and bands
+* olympic lifting competition
+* cycling race
+
+Current Books: Free Will, Waking Up, Understanding Consciousness, The Signal and The Noise. Eternal Golden Braid, Hofstadter.
+
+Iain Banks "Culture" novels, "Player of Games" etc. UK LeGuin, Left Hand of Darkness, Dispossessed.
+
+Movies: ???
 
 ---
 
@@ -243,7 +253,7 @@ Backstory
 
 ### Transforming to "Systems Engineering"
 
-Close the devide between "Systems" and "Development" and "Users".
+Close the divide between "Systems" and "Development" and "Users".
 
 #### Communicating is the key, and better tools help
 
@@ -329,7 +339,7 @@ Backstory
 .right-column-up[
 * Begin transferring "ownership" to PI Labs
 * First PI labs move to AWS
-* Web sites and databaes (CiViC, DGIdb)
+* Web sites and databases (CiViC, DGIdb)
 * https://civicdb.org/
 * https://www.dgidb.org/
 ]
@@ -349,7 +359,7 @@ Backstory
 
 Backstory
 
-<img src="./images/leading-edge.jpg" width="200">
+<img src="./images/leading-edge.jpg" width="150">
 ]
 
 .right-column[
@@ -403,8 +413,15 @@ Issue assignment, *doing* work:
 .left-column[
 # Scenario
 Backstory
-]
 
+Total Lines:
+
+- Ansible: 159,761
+- Puppet3: 86,143
+- Puppet4: 68,543
+- Docs: 40,562
+- Manual: 8,477
+]
 .right-column[
 ### What's Matt's role?
 Git commits, *doing* work:
@@ -498,7 +515,7 @@ faculty, staff, and students.**
 ]
 --
 .right-column[
-**"Very Important Professor has been recruited from Yale to be your first customer."**
+**"Very Important Professor has been recruited from Important University to be your first customer."**
 ]
 
 ???
@@ -710,6 +727,9 @@ Network
 ]
 .right-column[
 ### Datacenter Networks
+
+The RIS hardware team built this IB fabric.
+
 <img src="./images/network.png" width="500">
 ]
 ---
@@ -720,6 +740,9 @@ Network
 ]
 .right-column[
 ### Campus Networks
+
+The Wash U Central Networking team built campus networks.
+
 <img src="./images/wuit-networks.png" width="500">
 ]
 ---
@@ -1319,7 +1342,9 @@ Most users seem happy with the way things work.
 ]
 --
 .right-column[
-* ### "We don't want to think about building infrastructure. I want to think about science. Thanks for building this!"
+.right-column-right[
+### "We don't want to think about building infrastructure. I want to think about science. Thanks for building this!"
+]
 ]
 ---
 .left-column[
@@ -1342,19 +1367,26 @@ Most users seem happy with the way things work.
 ]
 --
 .right-column[
-* ### "Now we have to go back and re-learn how we built all this stuff!"
+.right-column-right[
+### "Now we have to go back and re-learn how we built all this stuff!"
+]
 ]
 ---
 .left-column[
 # Lessons
 
 What Have I Learned?
+
+<img src="./images/lessons.jpg" width="175">
 ]
 .right-column[
-### More than just this project
+### It's more than just this project!
 
+* Your problem is almost certainly not unique.
+* Writing original code is a last resort.
+* Reject solutions that have no community.
 * Culture matters more than planning.
-* Incentives matter.
+* Incentives matter at all levels.
 * Over promising is death.
 * Leadership matters more than belief.
 * Measure and manage team capacity.
@@ -1366,10 +1398,11 @@ What Have I Learned?
 * Strive for loose coupling.
 * Spot the decisions that are hard to change.
 ]
-<img src="./images/lessons.jpg" width="400">
 ---
 .left-column[
 ## AWS Futures
+
+<img src="./images/aws.png" align="left" width="100">
 ]
 .right-column[
 ### AWS Architecture
@@ -1383,9 +1416,20 @@ What Have I Learned?
 * AWS ECR: Image scanning, container management
 * AWS EC2 and EKS
 ]
+--
+.right-column[
+* We are already using GCP for ad-hoc development.
+* The same thing is possible in AWS.
+* Some Users already using AWS for web content.
+* Growing use of Glacier for storage.
+* Growing interest in cloud-bursting "batch" compute.
+* Growing interest in k8s/EKS for microservices.
+]
 ---
 .left-column[
 ## AWS Futures
+
+<img src="./images/aws.png" align="left" width="100">
 ]
 .right-column[
 ### AWS Architecture
@@ -1401,9 +1445,17 @@ What Have I Learned?
 * AWS Config (AWS config history)
 * AWS OpsWorks (chef and puppet)
 ]
+--
+.right-column[
+* Strong attraction for the RIS Team.
+* Shifting away from running tools...
+* Focusing on insights.
+]
 ---
 .left-column[
 ## AWS Futures
+
+<img src="./images/aws.png" align="left" width="100">
 ]
 .right-column[
 ### AWS Architecture
@@ -1412,7 +1464,13 @@ What Have I Learned?
 
 * Aurora: Migration of various PostgreSQL/MySQL DBs
 * Elasticache: Redis, Memcache and relation to workflow engines
-
+]
+--
+.right-column-up[
+* Many users run RDBMs in relation to research tooling.
+]
+--
+.right-column-up[
 #### Analytics
 
 * Athena/Redshift analysis of S3 storage
@@ -1422,12 +1480,19 @@ What Have I Learned?
 * Tableau
 * AWS Glue: ETL
 ]
-
-### This is all the stuff we *should* be doing!
-
+--
+.right-column-up[
+* Growing pressure to build data lakes
+* Relating hostpital EMR and research
+]
+.right-column-up[
+### This is all the stuff we *want* to be doing!
+]
 ---
 .left-column[
 ## AWS Futures
+
+<img src="./images/aws.png" align="left" width="100">
 ]
 .right-column[
 ### AWS Architecture
@@ -1436,10 +1501,23 @@ What Have I Learned?
 
 * AWS Trusted Advisor
 * AWS License Manager
-
+]
+--
+.right-column-up[
+* Growing pressure for license management.
+* Growing pressure to adhere to best practices.
+]
+--
+.right-column-up[
 #### Security, Identity, Compliance
 
 * HIPAA, PHI, EMR
+]
+--
+.right-column-up[
+### Bridging the gap between "research" and "clinical".
+]
+
 ]
 ---
 .left-column[
