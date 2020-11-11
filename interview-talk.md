@@ -29,13 +29,15 @@ class: center, middle, inverse
 ???
 
 Good morning<br/>
-It's a pleasure<br/>
-A lot of opportunity for tangents<br/>
-I encourage this to be "conversational"<br/>
+It's a pleasure to be here<br/>
+Excited for the opportunity<br/>
+... I encourage this to be "conversational"<br/>
+... lot of opportunity for tangents<br/>
+... attempt to set proper context<br/>
+... prior to technical deep dive<br/>
+... proud of what we've done at Wash U<br/>
 
-... attempt to set proper context
-
-... prior to technical deep dive
+advance to goals
 
 --
 .right-column[
@@ -48,13 +50,12 @@ I encourage this to be "conversational"<br/>
 
 ???
 
-An audience that must fill several roles
+You are an audience with several roles
 
-... like a hiring manager
-
-... like a coworker
-
-... like a customer
+... hiring manager<br/>
+... coworker<br/>
+... customer<br/>
+... I will attempt to tell stories to illustrate me for all these.
 
 ---
 
@@ -86,36 +87,33 @@ About me
 * Bicyclist
 * Motorcyclist
 
-"Movement through nature"
+Movement through nature.
 
-"Passionate in my interests"
+Passionate in my interests. Not doing things halfway.
 ]
 
 ???
 
 Grew up in KC -> Columbia MO -> Madison WI -> STL
 
-Leaving school for tech startup in FLOSS, wasn't excited about being a prof. Astrophysics was a difficult landscape.
+Winding path through collect to math and physics.<br/>
+Need to find "the truth" about the universe (STEM).<br/>
+Grad school was disheartening, but excited about FLOSS tech used.<br/>
+Leaving school for tech startup in netsec.
 
-Kids taking over hobbies, 2003, STL.
+2003 Moved to STL to telecommute, started family, felt like a big risk.<br/>
+2010 Felt a transition point, take tech back to academia.<br/>
+2020 Feeling a similar inflection point, that's what I'll talk about today.<br/>
 
-Hobbies: Movement through nature.
+But a quick summary about "what I'm like"...<br/>
+Nothing halfway:<br/>
+Hobbies re: Movement through nature.<br/>
+Music: complex, metal, jazz.<br/>
+Learning physics/math,published in ApJ,ultimate frisbee city runners up,open mic nights and bands,olympic lifting competition,cycling race
 
-Skiing, hiking, running. Ultimate frisbee, guitar.  Music. Heavy metal.
-
-Nothing halfway:
-
-* ultimate frisbee city runners up
-* published in ApJ
-* open mic nights and bands
-* olympic lifting competition
-* cycling race
-
-Current Books: Free Will, Waking Up, Understanding Consciousness, The Signal and The Noise. Eternal Golden Braid, Hofstadter.
-
-Iain Banks "Culture" novels, "Player of Games" etc. UK LeGuin, Left Hand of Darkness, Dispossessed.
-
-Movies: ???
+current books: Free Will, Waking Up, Understanding Consciousness, The Signal and The Noise. Eternal Golden Braid, Hofstadter.
+iain banks "Culture" novels, "Player of Games" etc. UK LeGuin, Left Hand of Darkness, Dispossessed.
+movies: Documentaries: Jaco Pastorius, Capital(ism), AOC, Ride Across America, Barkley Marathons
 
 ---
 
@@ -136,7 +134,7 @@ About me
 
 In terms of a maxim or motto...
 
-* Curiosity, tenacity, empathy, in search of balance.
+* Curiosity, tenacity, empathy, balance
 ]
 --
 .right-column[
@@ -145,17 +143,6 @@ In terms of a maxim or motto...
 * Empathy: Care about and share the feelings of others
 * Seeking balance: Seeking the *correct* proportions
 ]
---
-.right-column-up[
-* "The long tail"
-* "Enabler of others"
-* "Give me the ball"
-* Don't re-invent wheels
-* Make a contribution, to the team, to humanity
-]
-<img style="padding: 0 40px;" src="./images/masters.png" width="100">
-<img style="padding: 0 40px;" src="./images/phd.png" width="100">
-<img style="padding: 0 40px;" src="./images/knowledge.png" width="100">
 
 ???
 
@@ -166,6 +153,18 @@ In terms of a maxim or motto...
 * What gets me up in the morning
 * Being "smart enough" compared to...
 * ... 3 standard deviations and into the long tail
+
+--
+.right-column-up[
+* "The long tail"
+* "Enabler of others"
+* "Give me the ball"
+* Make a contribution, to a team, to humanity
+* Don't re-invent wheels
+]
+<img style="padding: 0 40px;" src="./images/masters.png" width="100">
+<img style="padding: 0 40px;" src="./images/phd.png" width="100">
+<img style="padding: 0 40px;" src="./images/knowledge.png" width="100">
 
 ---
 
@@ -181,32 +180,29 @@ Backstory
 
 * Traditional HPC with static compute images
 * Large Oracle OLAP/OLTP databases (billions of rows)
-* Laboratory automation (LIMS)
 * Basic automated primary and secondary analysis
-* Two teams, 15-20 application developers, Perl
+* Two teams, 15-20 application developers
+* Millions of lines of monolithic Perl, ORM, Workflow, Oracle
 ]
 
-<img style="padding: 0 35px; float: right;" src="./images/cost-per-genome.png" width="400">
+<img style="align:center;" src="./images/cost-per-genome.png" width="350">
 
 ???
 
 * SecurePipe/Trustwave was lots of data and data mining
 * MGI was similarly lots of data and data mining
 * The tools/tech were all very similar
-* Interviewing, RDBMs tables and relations
-* Someone saying, "He's one of us"
+* Exited to "belong", excited to build something important
+* Systems team quite far behind development teams
+* This is the "S"ituation (STAR)
 
 --
 
-.right-column[
-* **Systems team (~5), support and development, basic ticket tracking**
+.right-column-up[
+* **Systems team (~5): support, development, simple ticket tracking**
 * **Manual changes, no change control, no project management, ad-hoc/reactionary**
+* **"Throwing over the wall" and lots of fragility.**
 ]
-
-???
-
-* Systems team quite far behind development teams
-* Devs were close to scientists though
 
 ---
 
@@ -214,30 +210,53 @@ Backstory
 # Scenario
 
 Backstory
+
+<img style="float:left;" src="./images/agile.png" width="175">
 ]
 
 .right-column[
 
 ### Transforming "Systems" to "Systems Engineering"
 
-* Introduce VMWare: **change velocity**
-* Introduce Agile and Kanban: **project visibility**
-* Convince a skeptical team
+The Systems team was quite far behind in terms of skills and tech,
+disconnected culturally, with little transparency and poor communications.
+]
+--
+.right-column-up[
 
-#### Build social/political capital
+Close the gap between the Ops team, Dev and Users.
+Beginning with communications and behavior,
+but bringing tools and process too.
 
-<img style="padding: 0 35px; float: right;" src="./images/agile.png" width="300">
+* Begin establishing social connections
+* Introduce Atlassian with Agile and Kanban
+* Introduce VMWare: increase velocity
+* Introduce source control (svn at the time)
+* Create project visibility, transparency
+]
+--
+.right-column-up[
+* Brought Ops closer to Dev, culturally and technically
+* "I'll bet you a beer you'll never get VMWare."
+* Specific "wins" began to convince a skeptical team
+
+#### Building social/political capital with success
+
 ]
 
 ???
 
-* Not being dogmatic
-* eg. Owning your code is a requirement for Agile
-* Dev *and* support, lots of investigation
+* Use: Task, Action, Result here
+* Becoming friends with developers, meeting scientists/users.
+* Talk about being physically separated rooms.
+* Establishing lines of communication, talking things out, revealing problems.
+* Not being dogmatic: Not enough people for Scrum roles, no product owners
+* eg. Owning your code is a requirement for Agile, lots of investigation time
+* Dev *and* support, lots of interruptions for adhoc and fires
 * The can of Colt 45 winning the bet to get VMWare
+* Began showing people that things *can* change
 
 ---
-
 .left-column[
 # Scenario
 
@@ -253,21 +272,28 @@ Backstory
 
 ### Transforming to "Systems Engineering"
 
-Close the divide between "Systems" and "Development" and "Users".
-
-#### Communicating is the key, and better tools help
-
-* Begin to reveal and measure "toil"
-* Introduce transparency
-* Introduce Git and Puppet: **configuration management**
-* Introduce CI/CD
-* Introduce "rollback"
-* Introduce "blameless post-mortems"
-
+Now elevated to a "manager", and with a better relationship with Dev leads and
+scientists/users, I recognized the possibilities if we could empower them.
+"Stop needing 'root' hands". Look for automation and self-service.
 ]
+--
+.right-column-up[
+Communicating is the key, better tools help, but more "ownership" needed to
+shift to the "subject matter expert", often the developer or the user.
 
+* Shift software packaging to Devs, dependency tracking
+* Begin to reveal and measure "toil"
+* Introduce Git and Puppet: **configuration management**
+* Introduce CI/CD and rollbacks
+* Introduce "blameless post-mortems"
+]
+--
+.right-column-up[
+Begin to see a reduction in "change fail rate". Devs resisted owning packaging,
+but enjoyed not having to wait for Ops' help. Velocity increased as fear of change
+reduced and transparency improved work product.
+]
 ---
-
 .left-column[
 # Scenario
 
@@ -281,8 +307,20 @@ Backstory
 
 ### Transforming to "Systems Engineering"
 
+Virtualization of production environments was a big win, but still development
+and experimentation was expensive in time and effort. Not many were paying attention
+to trends in the industry and the rapid pace of innovation.
+]
+--
+.right-column-up[
+The community was alive with ideas, cloud was exploding, events like Supercomputing and StrangeLoop
+inspired me.
+
 * The Phoenix Project
 * Googe's SRE Book
+* Introduce Vagrant and OpenStack
+* Introduce Graphite, Grafana, Prometheus
+* Introduce "observability"
 ]
 
 ???
@@ -301,21 +339,13 @@ Time to restore service<br/>
 Change failure rate<br/>
 --
 .right-column-up[
-* Accelerate cultural shift
-* Accelerate velocity
+
+Accelerate cultural shifts, SysEng at this point is similarly equipped to
+AppEng. Velocity increases further. Cloud providers begin to drive us to build
+"Services". Development teams and their Users began to see a reduction in
+"break/fix" work. Separate support/on-call from development to maintain focus.
+
 ]
---
-.right-column-up[
-* Introduce Vagrant and OpenStack
-* Introduce tracking software dependencies
-* Introduce software packaging artifacts: (.deb, .rpm)
-
-Development teams and their Users began to see a reduction in "break/fix" work.
-Change begins to happen without fear. Time to deployment reduces\*.
-
-\* Though we never arrived at measuring MTTD, MTTR, etc.
-]
-
 ---
 .left-column[
 # Scenario
@@ -327,29 +357,30 @@ Backstory
 ]
 
 .right-column[
-
 ### Transforming to "Systems Engineering"
+By ~2015, SysEng was truly a "peer" of AppEng. Cloud was exploding, containers
+were a thing.  Scientists wanted portable, reproducible science. Our "factory"
+had improved, producing 50TB per week, but "discovery" was still too rigid.
+Monolithic infrastructure slowed us down.
+]
+--
+.right-column-up[
+Break apart the monoliths. Separate complex dependency trees. Allow teams, both
+users and internal, to evolve at different rates.
 
 * Introduce Docker
-* Solve the "static OS image" problem
-* Solve the "docker runs as root" problem
-]
-
---
-.right-column-up[
-* Begin transferring "ownership" to PI Labs
-* First PI labs move to AWS
-* Web sites and databases (CiViC, DGIdb)
-* https://civicdb.org/
-* https://www.dgidb.org/
-]
-
---
-.right-column-up[
 * Introduce Ansible
-* Solve the "two run" problem of PuppetDB
-* Improve coordinated action across many hosts
-* Development environments in GCP
+* Solved the "static OS image" problem
+* Solved the "docker runs as root" problem
+* Solved the "two run" problem of PuppetDB
+* Solved "coordination across hosts"
+]
+--
+--
+.right-column-up[
+Finally we saw true "loose coupling" where separate primary, secondary analysis
+teams could evolve at their own rate. Dockerized all of production. Some users
+used old tools, some new.
 ]
 
 ---
@@ -366,22 +397,29 @@ Backstory
 
 ### My story so far
 
-I adopted a "first among equals" management style:
-
-* Creating the Systems Engineering role
-* *Living* DevOps as that term came into vogue
-* Project Management **without dogma**
+With a "first among equals" management style, MGI was truly a leader
+in the scientific community, and our team was at the forefront of
+technology and methodology.
+]
+--
+.right-column-up[
+* Redefined team structure and relationships
+* Established Project Management **without dogma**
+* Established DevOps/SRE as these came into vogue
 * Virtualization technologies: VMware, OpenStack
 * Automation/Change: Git, Puppet, Ansible
 * CI/CD with Jenkins, Bamboo
 * Observability: Prometheus, Grafana
-* Centralized Logging: ElasticSearch, Logstash
+* Logging: ElasticSearch, RabbitMQ, Logstash
 * Abstraction into a *Service Catalog*
 * Leader in the adoption of Docker in HPC
+]
+--
+.right-column-up[
+We led the way in creating an environment supporting portable, repeatable
+science, ready for Hybrid Clouds.
 
-Goal: Portable, repeatable science in Hybrid Clouds.
-
-Establishing *ownership* by each Lab.
+We establishing *ownership* by each Lab.
 ]
 
 ---
@@ -503,7 +541,7 @@ Services (RIS).
 
 --
 
-.right-column[
+.right-column-up[
 Mandate:
 
 **Create a University-wide Service Catalog providing "research infrastructure" to
@@ -539,6 +577,12 @@ Problem Statement
 * Define the network paths.
 * Define storage and computing resources.
 ]
+
+???
+
+Talk about what I would have liked, but that the
+reality was not this way. Specifics on next slides.
+
 --
 .right-column[
 Are there hard numbers on these requirements?
@@ -571,11 +615,12 @@ requirements.
 
 * Analyze distribution of file size
 * Analyze distribution of read/write
+]
+.right-column[
+**Hurry up and ship it**
 
 "We have no defined use cases at this time. Buy what we can afford and
 benchmark common workloads."
-
-We didn't do this very well. I look forward to improving upon this.
 ]
 
 ???
@@ -654,7 +699,7 @@ Relationships
 * Technically Savvy Staff
 * Normal Users, Vendors, Collaborators, ...more
 
-<img src="./images/connections.png" width="350">
+<img src="./images/connections.png" width="500">
 ]
 --
 .right-column-up[
@@ -1266,7 +1311,7 @@ Python 3.8.0
 * Docker containers bringing *arbitrary software*
 * 5,000+ CPU cores, 500,000+ GPU cores, 100G network
 * 10+ PB storage, caching, scratch, backups, snapshots
-* **Complete, controlled, independent, reproducible science**
+* **Complete, independent, reproducible science**
 * **Cloud ready**
 ]
 ---
@@ -1415,6 +1460,7 @@ What Have I Learned?
 * AWS EC2 HPC Compute Cluster
 * AWS ECR: Image scanning, container management
 * AWS EC2 and EKS
+* AWS Secrets Manager
 ]
 --
 .right-column[
@@ -1444,6 +1490,7 @@ What Have I Learned?
 * AWS CloudTrail (record API calls)
 * AWS Config (AWS config history)
 * AWS OpsWorks (chef and puppet)
+* AWS X-Ray (distributed tracing)
 ]
 --
 .right-column[
@@ -1516,8 +1563,6 @@ What Have I Learned?
 --
 .right-column-up[
 ### Bridging the gap between "research" and "clinical".
-]
-
 ]
 ---
 .left-column[
