@@ -42,7 +42,7 @@ advance to goals
 --
 .right-column[
 ### Goals:
-* Give a sense of who I am
+* Provide a sense of who I am
 * Show what I'm like as an employee, as a coworker
 * Demonstrate what I've done
 * Show how I work, with a technical example
@@ -358,9 +358,9 @@ Backstory
 
 .right-column[
 ### Transforming to "Systems Engineering"
-By ~2015, SysEng was truly a "peer" of AppEng. Cloud was exploding, containers
-were a thing.  Scientists wanted portable, reproducible science. Our "factory"
-had improved, producing 50TB per week, but "discovery" was still too rigid.
+By ~2015, SysEng was truly a "peer" of AppEng. Docker containers became a
+thing. Scientists wanted portable, reproducible science. Our "factory" had
+improved, producing 50TB per week, but "discovery" was still too rigid.
 Monolithic infrastructure slowed us down.
 ]
 --
@@ -397,9 +397,12 @@ Backstory
 
 ### My story so far
 
-With a "first among equals" management style, MGI was truly a leader
-in the scientific community, and our team was at the forefront of
-technology and methodology.
+MGI was truly a leader in the scientific community, and our team was at the
+forefront of technology and methodology.
+
+With a "first among equals" management style, I brought Operations up to speed
+with Development. Beyond that, we created an environment that was agile,
+providing Services ready to respond to the changing landscape.
 ]
 --
 .right-column-up[
@@ -1342,6 +1345,7 @@ necessary for our progress on this project.
 ---
 .left-column[
 # Results
+Adoption
 ]
 .right-column[
 ### Compute Service Adoption
@@ -1352,6 +1356,7 @@ necessary for our progress on this project.
 ---
 .left-column[
 # Results
+Adoption
 ]
 .right-column[
 ### Storage Service Adoption
@@ -1361,6 +1366,7 @@ necessary for our progress on this project.
 ---
 .left-column[
 # Results
+Adoption
 ]
 .right-column[
 ### User Satisfaction
@@ -1369,6 +1375,41 @@ Most users seem happy with the way things work.
 
 <img src="./images/satisfaction.png" width="400">
 ]
+---
+.left-column[
+# Results
+
+Chargeback
+
+<img src="./images/money.jpg" width="150">
+]
+.right-column[
+### Changing Behavior
+
+It's hard to change behavior in a large organization. Incentives drive
+behavior. We built a "cost model" into our services, not to build profit, but
+to measure demand and drive behavior.
+]
+--
+.right-column-up[
+* $30k - "compute condo" of 4 execution nodes
+* 5TB free
+* $15/TB/mo. Consumption rates - pay for what you use
+* $1k/100TB/mo. Subscription rates
+* $500/500TB/mo. + capital cost - "storage condo" >500TB
+
+Requiring researchers to have "skin in the game" engages them to manage disk
+space and "pay attention" to the resources they consume.
+]
+--
+.right-column-up[
+RedHat Inc. recently contacted us saying:
+
+"Wash U may be ~25 in research dollars, but you are a clear thought leader in
+your service delivery model. RedHat wants to redesign how we bring our products
+to the .edu space based on what you're doing."
+]
+
 ---
 .left-column[
 # Results
