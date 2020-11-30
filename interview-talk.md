@@ -36,6 +36,7 @@ Excited for the opportunity<br/>
 ... attempt to set proper context<br/>
 ... prior to technical deep dive<br/>
 ... proud of what we've done at Wash U<br/>
+... don't worry about the slide count, more like 1/3<br/>
 
 advance to goals
 
@@ -50,11 +51,8 @@ advance to goals
 
 ???
 
-You are an audience with several roles
-
-... hiring manager<br/>
-... coworker<br/>
-... customer<br/>
+You are an audience with several roles<br/>
+... hiring manager, coworker, customer<br/>
 ... I will attempt to tell stories to illustrate me for all these.
 
 ---
@@ -94,18 +92,14 @@ Passionate in my interests. Not doing things halfway.
 
 ???
 
-Grew up in KC -> Columbia MO -> Madison WI -> STL
-
-Winding path through collect to math and physics.<br/>
+Grew up in KC -> Columbia MO -> Madison WI -> STL<br/>
+Winding path through college, English to Math and Physics.<br/>
 Need to find "the truth" about the universe (STEM).<br/>
 Grad school was disheartening, but excited about FLOSS tech used.<br/>
-Leaving school for tech startup in netsec.
-
+Leaving school for tech startup in netsec.<br/>
 2003 Moved to STL to telecommute, started family, felt like a big risk.<br/>
 2010 Felt a transition point, take tech back to academia.<br/>
 2020 Feeling a similar inflection point, that's what I'll talk about today.<br/>
-
-But a quick summary about "what I'm like"...<br/>
 Nothing halfway:<br/>
 Hobbies re: Movement through nature.<br/>
 Music: complex, metal, jazz.<br/>
@@ -153,14 +147,14 @@ In terms of a maxim or motto...
 * What gets me up in the morning
 * Being "smart enough" compared to...
 * ... 3 standard deviations and into the long tail
+* Making a contribution to the big problems of our time
 
 --
 .right-column-up[
 * "The long tail"
 * "Enabler of others"
 * "Give me the ball"
-* Make a contribution, to a team, to humanity
-* Don't re-invent wheels
+* "Moon shot problems"
 ]
 <img style="padding: 0 40px;" src="./images/masters.png" width="100">
 <img style="padding: 0 40px;" src="./images/phd.png" width="100">
@@ -196,6 +190,8 @@ Backstory
 * Systems team quite far behind development teams
 * This is the "S"ituation (STAR)
 
+Started from an "operations" centric point of view
+
 --
 
 .right-column-up[
@@ -221,6 +217,18 @@ Backstory
 The Systems team was quite far behind in terms of skills and tech,
 disconnected culturally, with little transparency and poor communications.
 ]
+
+???
+
+Talk about the "factory" vs the "startup" sharing resources.
+
+* Scale of data
+* Define generate store metadata for search
+* Access controls
+* Data processing tech/methods (ETL, workflows)
+* Security, Audit, Sharing
+* Compute/visualize tools and horsepower
+
 --
 .right-column-up[
 
@@ -404,6 +412,23 @@ With a "first among equals" management style, I brought Operations up to speed
 with Development. Beyond that, we created an environment that was agile,
 providing Services ready to respond to the changing landscape.
 ]
+
+???
+
+summarize: mission, factory vs startup, culture+tools<br/>
+Lots of "customers": Devs through End Users to other IT groups<br/>
+This was 2010-2015 or so, then R&E left and we "paused"<br/>
+All this time was spent building bespoke version of what the Cloud Services now are <br/>
+
+  - The Cancer Genome Atlas (TCGA) 20,000 genomes, 33 cancer types
+  - Pediatric Cancer Genome Project (PCGP) St Jude 2,000 patients (2010)
+  - Genome Reference Consortium (GRC) (Fulton)
+  - Human Microbiome Project (HMP)
+  - Trans-Omics for Precision Medicine (TOPMed) 90,000+ genomes
+  - Centers for Common Disease Genomics (CCDG) 60,000 genomes
+
+coming up is a review of "how I work", then a deep dive into the last couple years of change
+
 --
 .right-column-up[
 * Redefined team structure and relationships
@@ -438,6 +463,13 @@ Issue creation, *defining* work:
 
 <img src="./images/issue-creation.png" width="270">
 ]
+
+???
+
+This series of slides is intended to give you a sense of what my role is.
+Am I all high level? Am I just following orders? How much of what is being
+shown is really mine?
+
 ---
 .left-column[
 # Scenario
@@ -515,6 +547,12 @@ Backstory
 * See the required cultural changes
 ]
 
+???
+
+Having started from an Ops perspective, but being more of a communicator
+than usual, I establish relationships and perform many roles, technical
+managerial, organizational, aligning many to work toward a goal.
+
 --
 .right-column-up[
 * Align my team with partners
@@ -541,6 +579,13 @@ In 2017, Washington University in St. Louis moved the McDonnell Genome
 Institute (MGI) IT Team to a central IT group, forming Research Infrastructure
 Services (RIS).
 ]
+
+???
+
+So at this point, MGI had developed a single infrastructure that was both
+a "factory" (stable/careful) but also an engine of "exploration" (lots of change).
+Many leaders in genomics and cancer research had found success. Now we need
+to generalize this and create a "service" university wide.
 
 --
 
@@ -1301,7 +1346,7 @@ This has been an overview of RIS Storage and Compute
 [mcallawa@compute1-client-1 ~]$ bsub -Is -a 'docker(python)' bash
 Job <12595> is submitted to default queue <general-interactive>.
 ...
-I have no name!@compute1-exec-177:~$ python --version
+mcallawa@compute1-exec-177:~$ python --version
 Python 3.8.0
 ```
 ]
@@ -1341,6 +1386,35 @@ in getting early compute1 access and support which has been absolutely
 necessary for our progress on this project.
 ]
 ]
+---
+.left-column[
+# Results
+Metrics
+]
+.right-column[
+### Summary of FY2020
+
+Numbers representing a year spanning one department (MGI), a support desk,
+application and systems development, and hardware engineering:
+
+* [MGI] 31,000 files to dbGaP, SRA (TOPMed)
+* [MGI] 15,926 genomes (262 TB) to Cloud (CCDG)
+* 2,724 service desk requests: Rating: 4.9/5
+* Average response time: 3.98 hours
+* SLA met: 76% of the time
+* 2,734 development issues
+* 20 projects over 320 git repos
+* 5,000 commits: 4 million adds, 2 million removed
+* 1,000 Pull Requests merged
+* 917 total allocations by PI, project grew by 40%
+* User community from 1,483 to 1,906 users
+* Add 3PB dism+tape for general consumption
+* Add 2PB disk+tape for "condos"
+]
+
+???
+
+Things got weird with COVID, since March it's been WFH
 
 ---
 .left-column[
