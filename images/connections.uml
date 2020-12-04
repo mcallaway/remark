@@ -7,29 +7,29 @@ skinparam ranksep 20
 
 state "Systems\nEngineering" as Me : Matt C (me)
 
-state "CIO" as WUIT_CIO: absent
-state "Deputy\nCIO" as WUIT_DCIO: absent
+state "CIO" as WUIT_CIO
+state "Deputy\nCIO" as WUIT_DCIO
 
-state "Governance\nChair" as WUIT_GOV: James F
+state "Governance\nChair" as WUIT_GOV
 
-state "RIS Director" as RIS_Director: Craig P
+state "RIS Director" as RIS_Director
 
-state "RedHat" as RedHat : Damien E
-state "IBM" as IBM: Jan K
-state "Others" as Others : ...
+state "RedHat" as RedHat
+state "IBM" as IBM
+state "Others" as Others
 
-state "Networks" as WUIT_Networking: Jason M
-state "Architects" as WUIT_Architecture: Ken K
-state "Identity\nManagement" as WUIT_IDM: Dan Z
+state "Networks" as WUIT_Networking
+state "Architects" as WUIT_Architecture
+state "Identity\nManagement" as WUIT_IDM
 
-state "Dean of\nEngineering" as ENG_Dean: Ben G
-state "Engineering\nLead" as ENG_IT: Mark B
+state "Dean of\nEngineering" as ENG_Dean
+state "Engineering\nLead" as ENG_IT
 
-state "Oncology" as Onc_Lead: Chris M
-state "Genome\nAnalysis" as BGA_Lead: Jason W
-state "Informatics" as I2_Lead: Rachel K
-state "Researcher" as PI1: Todd W
-state "Researcher" as PI2: Kristine W
+state "Oncology" as Onc_Lead
+state "Genome\nAnalysis" as BGA_Lead
+state "Informatics" as I2_Lead
+state "Researcher" as PI1
+state "Researcher" as PI2
 state "Researchers" as PI_N: Others...
 
 RIS_Director -u-> WUIT_CIO

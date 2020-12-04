@@ -1,0 +1,20 @@
+@startuml
+skinparam linetype polyline
+skinparam linetype ortho
+
+actor "Research Compute User" as user
+
+frame "Data Center Network" as DC {
+  package "LSF cluster" {
+    collections "Master Nodes" as master
+    collections "Exec Nodes" as exec
+    collections "Client Nodes" as client
+  }
+  package "GPFS cluster" {
+    cloud "Scratch Cluster"
+  }
+}
+
+user -d-> client : SSH
+
+@enduml

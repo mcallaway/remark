@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="532px" preserveAspectRatio="none" style="width:605px;height:532px;" version="1.1" viewBox="0 0 605 532" width="605px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qwabmlp8ntr6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="Me"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="191" y="165"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="191" x2="294" y1="207.9766" y2="207.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="55" x="215" y="183.5352">Systems</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="201" y="200.0234">Engineering</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="196" y="224.5781">Matt C (me)</text></g><g id="WUIT_CIO"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="59" x="296" y="15"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="296" x2="355" y1="41.4883" y2="41.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="313" y="33.5352">CIO</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="301" y="58.0898">absent</text></g><g id="WUIT_DCIO"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="186.5" y="7"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="186.5" x2="254.5" y1="49.9766" y2="49.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="196.5" y="25.5352">Deputy</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="208" y="42.0234">CIO</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="191.5" y="66.5781">absent</text></g><g id="WUIT_GOV"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="7" y="7"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="108" y1="49.9766" y2="49.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="17" y="25.5352">Governance</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="39" y="42.0234">Chair</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="12" y="66.5781">James F</text></g><g id="RIS_Director"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="36.5" y="94"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="36.5" x2="136.5" y1="120.4883" y2="120.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="46.5" y="112.5352">RIS Director</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="41.5" y="137.0898">Craig P</text></g><g id="RedHat"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="197" y="94"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="197" x2="272" y1="120.4883" y2="120.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="210" y="112.5352">RedHat</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="202" y="137.0898">Damien E</text></g><g id="IBM"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="141.5" y="94"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="141.5" x2="191.5" y1="120.4883" y2="120.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="154.5" y="112.5352">IBM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="30" x="146.5" y="137.0898">Jan K</text></g><g id="Other"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="360.5" y="15"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="360.5" x2="426.5" y1="41.4883" y2="41.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="370.5" y="33.5352">Others</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="12" x="365.5" y="58.0898">...</text></g><g id="WUIT_Networking"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="299.5" y="173"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="299.5" x2="383.5" y1="199.4883" y2="199.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="309.5" y="191.5352">Networks</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="304.5" y="216.0898">Jason M</text></g><g id="WUIT_Architecture"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="503.5" y="173"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="503.5" x2="591.5" y1="199.4883" y2="199.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="513.5" y="191.5352">Architects</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="508.5" y="216.0898">Ken K</text></g><g id="WUIT_IDM"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="389" y="165"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="389" x2="498" y1="207.9766" y2="207.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="418" y="183.5352">Identity</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="399" y="200.0234">Management</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="394" y="224.5781">Dan Z</text></g><g id="ENG_Dean"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="12" y="294"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="12" x2="115" y1="336.9766" y2="336.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="37" y="312.5352">Dean of</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="22" y="329.0234">Engineering</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="17" y="353.5781">Ben G</text></g><g id="ENG_IT"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="120" y="294"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="120" x2="223" y1="336.9766" y2="336.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="130" y="312.5352">Engineering</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="155.5" y="329.0234">Lead</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="40" x="125" y="353.5781">Mark B</text></g><g id="Onc_Lead"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="73" y="389"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="73" x2="158" y1="415.4883" y2="415.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="83" y="407.5352">Oncology</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="78" y="432.0898">Chris M</text></g><g id="BGA_Lead"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="67.1094" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="77" x="163" y="381"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="163" x2="240" y1="423.9766" y2="423.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="173" y="399.5352">Genome</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="173.5" y="416.0234">Analysis</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="168" y="440.5781">Jason W</text></g><g id="I2_Lead"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="245" y="389"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="245" x2="342" y1="415.4883" y2="415.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="255" y="407.5352">Informatics</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="250" y="432.0898">Rachel K</text></g><g id="PI1"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257.5" y="468"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="257.5" x2="353.5" y1="494.4883" y2="494.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="267.5" y="486.5352">Researcher</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="262.5" y="511.0898">Todd W</text></g><g id="PI2"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="358.5" y="468"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="358.5" x2="454.5" y1="494.4883" y2="494.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="368.5" y="486.5352">Researcher</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="363.5" y="511.0898">Kristine W</text></g><g id="PI_N"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50.6211" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="460" y="468"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="460" x2="563" y1="494.4883" y2="494.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="470" y="486.5352">Researchers</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="465" y="511.0898">Others...</text></g><g id="Others"><rect fill="#FEFECE" filter="url(#f1qwabmlp8ntr6)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="277.5" y="94.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="277.5" x2="343.5" y1="120.9883" y2="120.9883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="287.5" y="113.0352">Others</text></g><!--MD5=[2ba27442f875f5ba52e62a4f39a1aa46]
+reverse link WUIT_CIO to RIS_Director--><path d="M291.03,60.24 C280.51,65.34 268.75,70.43 257.5,74 C207.22,89.97 190.94,78.53 140.5,94 C139.22,94.39 137.93,94.81 136.64,95.24 " fill="none" id="WUIT_CIO-backto-RIS_Director" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="295.77,57.91,285.9282,58.2817,291.2808,60.1117,289.4509,65.4644,295.77,57.91" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f84c9fb7ef6ae8e426d57edcffd91357]
+reverse link WUIT_DCIO to RIS_Director--><path d="M181.78,63.75 C165.33,73.2 146.1,84.25 129.24,93.94 " fill="none" id="WUIT_DCIO-backto-RIS_Director" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="186.34,61.13,176.5445,62.1535,182.0067,63.6245,180.5357,69.0867,186.34,61.13" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e888761889baf63c102a5da4e1ae5270]
+reverse link WUIT_GOV to RIS_Director--><path d="M71.66,79.1 C73.53,84.07 75.41,89.06 77.17,93.74 " fill="none" id="WUIT_GOV-backto-RIS_Director" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="69.8,74.15,69.2148,83.9815,71.5556,78.8316,76.7054,81.1725,69.8,74.15" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c8884624f7f85a7039ebf87acc67f80b]
+link RIS_Director to ENG_Dean--><path d="M83.73,145.35 C79.75,180.96 72.4,246.8 67.74,288.54 " fill="none" id="RIS_Director-to-ENG_Dean" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="67.16,293.75,72.1375,285.2515,67.7169,288.7811,64.1872,284.3605,67.16,293.75" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2a8e54698d2d0f7cf71371efce2f2058]
+link ENG_Dean to ENG_IT--><path d="M115.39,327.5 C115.48,327.5 115.57,327.5 115.66,327.5 " fill="none" id="ENG_Dean-to-ENG_IT" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="119.77,327.5,110.77,323.5,114.77,327.5,110.77,331.5,119.77,327.5" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="115.39" x2="119.77" y1="327.5" y2="327.5"/><!--MD5=[a9b9e2a685805713906f0f2f4f1e9d5d]
+reverse link RIS_Director to Me--><path d="M140.82,147.31 C157.02,155.31 174.73,164.05 190.77,171.97 " fill="none" id="RIS_Director-backto-Me" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="136.29,145.07,142.5897,152.6405,140.7735,147.2832,146.1309,145.4669,136.29,145.07" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[59eca3040bd91a439c57e32eb297c3e6]
+reverse link Others to Me--><path d="M285.51,148.8 C280.9,154.02 276.05,159.51 271.34,164.85 " fill="none" id="Others-backto-Me" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="288.98,144.86,280.0266,148.9632,285.6724,148.6096,286.0259,154.2554,288.98,144.86" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f6ed58628d85409a7767aa25f8c604bd]
+reverse link RedHat to Me--><path d="M237.6,150.36 C238.1,155.12 238.61,160.07 239.11,164.89 " fill="none" id="RedHat-backto-Me" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="237.08,145.29,234.0273,154.6538,237.5945,150.2635,241.9849,153.8306,237.08,145.29" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a8efd7d6d9e08f15e585069fcb91b4cc]
+reverse link IBM to Me--><path d="M194.48,148.85 C199.63,154.07 205.05,159.56 210.31,164.89 " fill="none" id="IBM-backto-Me" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="190.97,145.29,194.4498,154.5036,194.484,148.8469,200.1408,148.8812,190.97,145.29" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[79882b810b1952b1800b84a6e42f9b92]
+reverse link WUIT_CIO to Me--><path d="M345.08,70.67 C357.22,92.75 367.85,122.94 352.5,145 C337.88,166.01 321.65,154.09 298.5,165 C297.08,165.67 295.64,166.37 294.2,167.08 " fill="none" id="WUIT_CIO-backto-Me" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,3.0;"/><polygon fill="#A80036" points="342.47,66.09,343.4449,75.8905,344.943,70.4356,350.3979,71.9337,342.47,66.09" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[346a2d8b574a3cc7c1b2dc795b369332]
+reverse link WUIT_DCIO to Me--><path d="M259.19,59.12 C270.23,64.04 282.3,69.31 293.5,74 C315.96,83.4 330.78,73.89 344.5,94 C357.27,112.73 356.93,126.04 344.5,145 C332.28,163.64 318.4,154.94 298.5,165 C297.1,165.71 295.68,166.44 294.25,167.18 " fill="none" id="WUIT_DCIO-backto-Me" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,3.0;"/><polygon fill="#A80036" points="254.53,57.03,261.1149,64.3539,259.0949,59.07,264.3788,57.05,254.53,57.03" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[48958a716f7380cc0748ffb4ed2a455b]
+reverse link WUIT_GOV to Me--><path d="M35.73,79.18 C26.59,100.45 21.03,126.4 35.5,145 C54.4,169.29 135.82,184.15 190.74,191.6 " fill="none" id="WUIT_GOV-backto-Me" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="37.86,74.44,30.5285,81.0164,35.8147,79.0025,37.8285,84.2888,37.86,74.44" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bce58b05c132d77d253d70949d7188a7]
+link Me to WUIT_Networking--><path d="M294.32,198.5 C294.43,198.5 294.54,198.5 294.64,198.5 " fill="none" id="Me-to-WUIT_Networking" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="299.48,198.5,290.48,194.5,294.48,198.5,290.48,202.5,299.48,198.5" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="294.32" x2="299.48" y1="198.5" y2="198.5"/><!--MD5=[7dae522dad0a2c59e0b0d30923ef1aad]
+link Me to WUIT_Architecture--><path d="M280.85,164.83 C287.22,160.8 294.03,157.31 301,155 C321.67,148.16 476.58,147.42 497,155 C505.6,158.19 513.72,163.59 520.83,169.5 " fill="none" id="Me-to-WUIT_Architecture" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="524.68,172.84,520.5216,163.9121,520.91,169.5556,515.2665,169.944,524.68,172.84" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d75cbc38f7f6ee7d22da8ea024398fad]
+link Me to WUIT_IDM--><path d="M280.85,164.83 C287.22,160.8 294.03,157.31 301,155 C335.6,143.55 348.31,143.82 383,155 C388.58,156.8 394.08,159.32 399.35,162.26 " fill="none" id="Me-to-WUIT_IDM" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="403.73,164.82,397.9682,156.8324,399.4101,162.3024,393.9401,163.7443,403.73,164.82" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3f324435d81e27d0e0a831ab5fd82c61]
+link Me to ENG_Dean--><path d="M196.4,232.21 C171.03,250.2 139.53,272.56 113.56,290.98 " fill="none" id="Me-to-ENG_Dean" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="109.44,293.91,119.0989,291.9851,113.524,291.0255,114.4837,285.4506,109.44,293.91" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1df90f88ab7724041537cdec132c45bd]
+link Me to ENG_IT--><path d="M224.22,232.21 C214.44,249.69 202.37,271.27 192.25,289.38 " fill="none" id="Me-to-ENG_IT" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="189.72,293.91,197.5874,287.9852,192.1482,289.5392,190.5942,284.1,189.72,293.91" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c572554170a6670c0f040f564906e15]
+link Me to Onc_Lead--><path d="M240.75,232.27 C238.09,276.59 232.49,351.27 224.5,361 C205.86,383.71 187.81,367.93 161.5,381 C158.31,382.59 155.1,384.38 151.93,386.29 " fill="none" id="Me-to-Onc_Lead" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="147.65,388.95,157.4061,387.6015,151.898,386.3128,153.1866,380.8047,147.65,388.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[de4638de054578b6c69ba0e2d2907b81]
+link Me to BGA_Lead--><path d="M246.02,232.24 C248.47,265.5 249.2,318.09 235.5,361 C233.83,366.23 231.5,371.44 228.82,376.43 " fill="none" id="Me-to-BGA_Lead" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="226.28,380.95,234.1704,375.0558,228.7252,376.5887,227.1923,371.1435,226.28,380.95" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[356f997a969e342c75b4bb770f3d1ff4]
+link Me to I2_Lead--><path d="M250.25,232 C260.06,273.18 276.84,343.59 286.36,383.53 " fill="none" id="Me-to-I2_Lead" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="287.59,388.72,289.4018,379.0392,286.4345,383.8554,281.6183,380.8881,287.59,388.72" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d01fe1dce0273833a13a47486b6c19f8]
+link Me to PI1--><path d="M294.29,229.45 C322,246.35 350.5,265.54 350.5,273 C350.5,273 350.5,273 350.5,328.5 C350.5,381.7 363.36,398.65 343.5,448 C341.31,453.45 338.17,458.71 334.62,463.58 " fill="none" id="Me-to-PI1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="331.55,467.58,340.2071,462.8837,334.5979,463.6163,333.8652,458.0071,331.55,467.58" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a76ca7cd1e0eea2e538c6f6e24eba6df]
+link Me to PI2--><path d="M294.21,229.91 C295.65,230.62 297.08,231.32 298.5,232 C344.86,254.07 406.5,221.66 406.5,273 C406.5,273 406.5,273 406.5,328.5 C406.5,375.39 406.5,429.82 406.5,462.69 " fill="none" id="Me-to-PI2" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="406.5,467.77,410.5,458.77,406.5,462.77,402.5,458.77,406.5,467.77" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5ff23b45949c49f7093ad164c039516b]
+link Me to PI_N--><path d="M294.06,230.25 C295.54,230.87 297.03,231.45 298.5,232 C343.68,248.81 511.5,224.8 511.5,273 C511.5,273 511.5,273 511.5,328.5 C511.5,375.39 511.5,429.82 511.5,462.69 " fill="none" id="Me-to-PI_N" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="511.5,467.77,515.5,458.77,511.5,462.77,507.5,458.77,511.5,467.77" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[eea1ececa9f19bf7329c57112a21092d]
+@startuml
+
+'skinparam linetype polyline
+skinparam nodesep 5
+skinparam ranksep 20
+
+
+state "Systems\nEngineering" as Me : Matt C (me)
+
+state "CIO" as WUIT_CIO: absent
+state "Deputy\nCIO" as WUIT_DCIO: absent
+
+state "Governance\nChair" as WUIT_GOV: James F
+
+state "RIS Director" as RIS_Director: Craig P
+
+state "RedHat" as RedHat : Damien E
+state "IBM" as IBM: Jan K
+state "Others" as Other : ...
+
+state "Networks" as WUIT_Networking: Jason M
+state "Architects" as WUIT_Architecture: Ken K
+state "Identity\nManagement" as WUIT_IDM: Dan Z
+
+state "Dean of\nEngineering" as ENG_Dean: Ben G
+state "Engineering\nLead" as ENG_IT: Mark B
+
+state "Oncology" as Onc_Lead: Chris M
+state "Genome\nAnalysis" as BGA_Lead: Jason W
+state "Informatics" as I2_Lead: Rachel K
+state "Researcher" as PI1: Todd W
+state "Researcher" as PI2: Kristine W
+state "Researchers" as PI_N: Others...
+
+RIS_Director -u-> WUIT_CIO
+RIS_Director -u-> WUIT_DCIO
+RIS_Director -u-> WUIT_GOV
+
+RIS_Director - - -> ENG_Dean
+
+ENG_Dean -> ENG_IT
+
+Me -u-> RIS_Director
+Me -u-> Others
+Me -u-> RedHat
+Me -u-> IBM
+
+Me -l[dotted]-> WUIT_CIO
+Me -l[dotted]-> WUIT_DCIO
+Me -l-> WUIT_GOV
+Me -r-> WUIT_Networking
+Me -r-> WUIT_Architecture
+Me -r-> WUIT_IDM
+Me - - - -> ENG_Dean
+Me - - - -> ENG_IT
+Me - - - - -> Onc_Lead
+Me - - - - -> BGA_Lead
+Me - - - - -> I2_Lead
+Me - - - - - -> PI1
+Me - - - - - -> PI2
+Me - - - - - -> PI_N
+
+@enduml
+
+@startuml
+
+skinparam nodesep 5
+skinparam ranksep 20
+
+
+state "Systems\nEngineering" as Me : Matt C (me)
+
+state "CIO" as WUIT_CIO: absent
+state "Deputy\nCIO" as WUIT_DCIO: absent
+
+state "Governance\nChair" as WUIT_GOV: James F
+
+state "RIS Director" as RIS_Director: Craig P
+
+state "RedHat" as RedHat : Damien E
+state "IBM" as IBM: Jan K
+state "Others" as Other : ...
+
+state "Networks" as WUIT_Networking: Jason M
+state "Architects" as WUIT_Architecture: Ken K
+state "Identity\nManagement" as WUIT_IDM: Dan Z
+
+state "Dean of\nEngineering" as ENG_Dean: Ben G
+state "Engineering\nLead" as ENG_IT: Mark B
+
+state "Oncology" as Onc_Lead: Chris M
+state "Genome\nAnalysis" as BGA_Lead: Jason W
+state "Informatics" as I2_Lead: Rachel K
+state "Researcher" as PI1: Todd W
+state "Researcher" as PI2: Kristine W
+state "Researchers" as PI_N: Others...
+
+RIS_Director -u-> WUIT_CIO
+RIS_Director -u-> WUIT_DCIO
+RIS_Director -u-> WUIT_GOV
+
+RIS_Director - - -> ENG_Dean
+
+ENG_Dean -> ENG_IT
+
+Me -u-> RIS_Director
+Me -u-> Others
+Me -u-> RedHat
+Me -u-> IBM
+
+Me -l[dotted]-> WUIT_CIO
+Me -l[dotted]-> WUIT_DCIO
+Me -l-> WUIT_GOV
+Me -r-> WUIT_Networking
+Me -r-> WUIT_Architecture
+Me -r-> WUIT_IDM
+Me - - - -> ENG_Dean
+Me - - - -> ENG_IT
+Me - - - - -> Onc_Lead
+Me - - - - -> BGA_Lead
+Me - - - - -> I2_Lead
+Me - - - - - -> PI1
+Me - - - - - -> PI2
+Me - - - - - -> PI_N
+
+@enduml
+
+PlantUML version 1.2020.19(Mon Oct 12 10:10:01 CDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,30 @@
+@startuml
+
+state Researchers : Many
+state Labs : Many
+state "IT Director" as dir : David D
+
+state APIPE: Scott S
+state APIPE: 15 Devs
+
+state LIMS: Craig P
+state LIMS: 15 Devs
+
+state Systems: Gary S
+state Systems: Matt C (me)
+state Systems: 5 SysAdmins
+
+state Researchers
+state Labs
+
+dir --> LIMS : strong
+dir --> APIPE : strong
+dir --> Systems : strong
+
+Systems -[dotted]-> APIPE : weak
+Systems -[dotted]-> LIMS : weak
+
+Researchers ---> APIPE : strong
+Labs ---> LIMS : strong
+
+@enduml
