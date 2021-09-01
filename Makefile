@@ -13,4 +13,10 @@ bundle:
 highlighter:
 	node make highlighter
 
-.PHONY: deps test bundle highlighter
+serve:
+	python -m http.server
+
+browse:
+	open http://localhost:8000/talk.html
+
+.PHONY: deps test bundle highlighter serve browse
