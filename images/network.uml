@@ -1,0 +1,48 @@
+@startuml
+'skinparam linetype polyline
+'skinparam linetype ortho
+
+collections "Compute Hosts" as exec
+collections "DTNs" as dtn
+
+rectangle "Leaf Switch"  as leaf
+rectangle "Spine Switch" as spine
+
+rectangle "Storage Cluster" as storage1
+
+rectangle "IB Gateway" as gw1
+rectangle "IB Gateway" as gw2
+
+rectangle "Cisco\n9332PQ" as sw1
+rectangle "Cisco\n9332PQ" as sw2
+
+rectangle "Juniper\nMX960" as wurn_gw
+
+cloud "Campus Core" as core
+cloud "WURN" as wurn
+
+exec     -d-> leaf  : 100 Gb
+storage1 -d-> leaf : 100 Gb
+
+leaf -d-> spine : 200 Gb
+
+spine -d-> gw1  : 56 Gb
+spine -d-> gw2  : 56 Gb
+
+gw1 .r. gw2
+
+gw1 -d-> sw1 : 40 GbE
+gw2 -d-> sw2 : 40 GbE
+sw1 .r.  sw2
+
+sw1 -l-> core : 1 GbE
+sw2 -r-> dtn : 40 GbE
+
+dtn -d-> wurn_gw
+
+wurn_gw <-r-> wurn : 10GbE
+
+'sw1 -d-> storage1 : 40GbE
+'sw2 -d-> storage1 : 40GbE
+
+@enduml

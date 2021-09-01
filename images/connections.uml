@@ -1,0 +1,63 @@
+@startuml
+
+'skinparam linetype polyline
+skinparam nodesep 5
+skinparam ranksep 20
+
+
+state "Systems\nEngineering" as Me : Matt C (me)
+
+state "CIO" as WUIT_CIO
+state "Deputy\nCIO" as WUIT_DCIO
+
+state "Governance\nChair" as WUIT_GOV
+
+state "RIS Director" as RIS_Director
+
+state "RedHat" as RedHat
+state "IBM" as IBM
+state "Others" as Others
+
+state "Networks" as WUIT_Networking
+state "Architects" as WUIT_Architecture
+state "Identity\nManagement" as WUIT_IDM
+
+state "Dean of\nEngineering" as ENG_Dean
+state "Engineering\nLead" as ENG_IT
+
+state "Oncology" as Onc_Lead
+state "Genome\nAnalysis" as BGA_Lead
+state "Informatics" as I2_Lead
+state "Researcher" as PI1
+state "Researcher" as PI2
+state "Researchers" as PI_N: Others...
+
+RIS_Director -u-> WUIT_CIO
+RIS_Director -u-> WUIT_DCIO
+RIS_Director -u-> WUIT_GOV
+
+RIS_Director ---> ENG_Dean
+
+ENG_Dean -> ENG_IT
+
+Me -u-> RIS_Director
+Me -u-> Others
+Me -u-> RedHat
+Me -u-> IBM
+
+Me -l[dotted]-> WUIT_CIO
+Me -l[dotted]-> WUIT_DCIO
+Me -l-> WUIT_GOV
+Me -r-> WUIT_Networking
+Me -r-> WUIT_Architecture
+Me -r-> WUIT_IDM
+Me ----> ENG_Dean
+Me ----> ENG_IT
+Me -----> Onc_Lead
+Me -----> BGA_Lead
+Me -----> I2_Lead
+Me ------> PI1
+Me ------> PI2
+Me ------> PI_N
+
+@enduml

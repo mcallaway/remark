@@ -1,0 +1,55 @@
+@startuml
+skinparam linetype polyline
+skinparam linetype ortho
+
+actor "Research Storage User" as user
+actor "External Collaborator" as ext
+
+frame "Data Center Network" as DC {
+  together {
+  package "GPFS cluster" {
+    collections "NSD Nodes" as nsd
+    collections "CES Nodes" as ces
+    collections "TSM Nodes" as tsm
+    collections "HSM Nodes" as hsm
+    collections "DTN Nodes" as dtn
+    'collections "Client Nodes" as client
+    database "SAN devices" as san
+    database "Tape Library" as tape
+  }
+  nsd -r-> ces
+  }
+}
+
+cloud "Globus/Endpoints\nInternet" as globus
+
+'nsd -l-> client
+'ces .. client
+'tsm .. client
+'hsm .. client
+'dtn .. client
+nsd -d-> tsm
+nsd -d-> hsm
+nsd -r-> dtn
+'
+'ces .. tsm
+'ces .. hsm
+'ces .. dtn
+'
+'tsm .. hsm
+'tsm .. dtn
+'
+'hsm .. dtn
+
+nsd -d-> san : storage fabric (IB/FC)
+
+hsm -l-> tsm
+tsm -d-> tape
+
+globus <-> dtn
+
+'user -d-> client : SSH
+user -d-> ces : SMB or NFS
+ext -d-> globus
+
+@enduml

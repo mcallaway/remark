@@ -1,0 +1,11 @@
+@startuml
+actor Foo1 [[http://plantuml.com/sequence]]
+boundary Foo2
+control Foo3
+entity Foo4
+database Foo5
+Foo1 -> Foo2 : To boundary [[http://plantuml.com/start{Tooltip for message} some link]]
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database [[faq#how-to-create-a-table-of-contents{Relative links do not work} TOC]]
+@enduml

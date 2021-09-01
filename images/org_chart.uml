@@ -1,0 +1,37 @@
+@startuml
+
+state Director : 1 member
+
+state Architect : 1 member
+
+state UserSupport : 3 members
+'state UserSupport : Rob P
+'state UserSupport : Elyn F
+
+state Hardware : 4 members
+'state Hardware : Kirk B
+'state Hardware : Eric G
+'state Hardware : Jacinda N
+
+state AppEngineering : 6 members
+'state AppEngineering : Shin L
+'state AppEngineering : Shawn L
+'state AppEngineering : Catherine M
+'state AppEngineering : Dom H
+'state AppEngineering : Chandler P
+
+state SysEngineering : 7 members (me)
+'state SysEngineering : Chakri G
+'state SysEngineering : Rob F
+'state SysEngineering : Alex S
+'state SysEngineering : Bill C
+'state SysEngineering : Keith D
+'state SysEngineering : Tony B
+
+Director --> Architect
+Director --> UserSupport
+Director --> Hardware
+Director --> AppEngineering
+Director --> SysEngineering
+
+@enduml

@@ -1,4 +1,7 @@
+.DS_Store
+.localized
 node_modules
+*.pdf
 out
 vendor
 *.swp

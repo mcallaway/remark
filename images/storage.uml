@@ -1,0 +1,27 @@
+@startuml Storage Design
+
+title Storage Design
+
+actor "User" as user
+
+frame "Campus Net" {
+  cloud Networks
+}
+
+frame "WURN" {
+}
+
+frame "Data Center Net" {
+  package "Storage" {
+    node "NSD" as nsd
+    node "CES" as ces
+    node "DTN"
+    node "HSM"
+    node "TSM"
+    node "ILM"
+    node "FSMGR"
+    database "Array"
+  }
+}
+
+@enduml
