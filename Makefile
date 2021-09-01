@@ -16,6 +16,7 @@ highlighter:
 serve:
 	python -m http.server
 
+# talk.md can be a symlink to a specific Markdown file
 browse:
 	open http://localhost:8000/talk.html
 
